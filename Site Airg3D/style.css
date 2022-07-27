@@ -1,0 +1,5607 @@
+/*--Polices--*/
+
+@font-face{
+    font-family:"monument-extended-ultrabold";
+    src:url("polices/monumentextended-ultrabold.otf") format("woff"),
+    url("polices/monumentextended-ultrabold.otf") format("opentype"),
+    url("polices/monumentextended-ultrabold.otf") format("truetype");
+}
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+button {
+    font-family:""
+}
+
+body {
+    
+    font-family: "poppins";
+    overflow-x: hidden;
+    max-width: 1920px;
+    background-color: '';
+    
+}
+
+
+/*--Menu indépendant (s'applique à toutes les pages)--*/
+
+.corpsdepage {
+    padding-top: 100px;
+    height: 1419.2px;
+    width: 100vw;
+    
+}
+
+.corpsdepage-catalogue {
+    padding-top: 100px;
+    height: 1419.2px;
+    width: 100vw;
+    
+}
+
+.corpsdepage-catalogue-1800 {
+    padding-top: 100px;
+    height: 1600px;
+    width: 100vw;
+    
+}
+
+.corpsdepage-catalogue-1100 {
+    padding-top: 100px;
+    height: 1900px;
+    width: 100vw;
+    
+}
+
+/*--Corps de page de chaque produit catalogue --*/
+
+.corpsdepage-avion-support {
+    padding-top: 100px;
+    height: 100vh;
+    width: 100vw;
+}
+
+.corpsdepage-dragon-articulé {
+    padding-top: 100px;
+    height: 100vh;
+    width: 100vw;
+}
+
+.corpsdepage-fidget-star {
+    padding-top: 100px;
+    height: 100vh;
+    width: 100vw;
+}
+
+.corpsdepage-slinky {
+    padding-top: 100px;
+    height: 100vh;
+    width: 100vw;
+}
+
+.corpsdepage-infinite-cube {
+    padding-top: 100px;
+    height: 100vh;
+    width: 100vw;
+}
+
+.corpsdepage-pelleteuse {
+    padding-top: 100px;
+    height: 100vh;
+    width: 100vw;
+}
+
+.corpsdepage-camion {
+    padding-top: 100px;
+    height: 100vh;
+    width: 100vw;
+}
+
+.corpsdepage-charseuse-sur-pneu {
+    padding-top: 100px;
+    height: 100vh;
+    width: 100vw;
+}
+
+.corpsdepage-chariot-elevateur {
+    padding-top: 100px;
+    height: 100vh;
+    width: 100vw;
+}
+
+.corpsdepage-rouleau-compresseur {
+    padding-top: 100px;
+    height: 100vh;
+    width: 100vw;
+}
+
+/*-- Suite --*/
+
+.corpsdepage-catalogue-1800 {
+    display: none;
+}
+
+.corpsdepage-catalogue-1100 {
+    display: none;
+}
+
+
+.navbar .nav-links .nav-linksleft {
+    display: none;
+}
+
+.navbar .nav-links .nav-linksright {
+    display: none;
+}
+
+.navbar {
+    background-color: antiquewhite;
+    box-shadow: 0px -10px 10px -10px rgb(0, 0, 0) inset;
+}
+
+.navbar.sticky {
+    position:fixed;
+    top: 0;
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.89);
+    color: white;
+}
+
+.navbar.sticky a {
+    color: antiquewhite;
+}
+
+.navbar .container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar .container .logo {
+    position: static;
+    height: 100px;
+    width: 100px;
+}
+
+.navbar .container .nav-linksleft {
+    display: inline;
+    margin-right: 25px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.navbar .container .nav-linksright {
+    display: inline;
+    margin-left: 50px;
+    margin-top: auto;
+    margin-bottom: auto;
+    
+}
+
+.navbar .container .nav-linksleft ul {
+    display: flex;
+}
+
+.navbar .container .nav-linksleft ul li {
+    margin-right: 50px;
+}
+
+.navbar .container .nav-linksright ul {
+    display: flex;
+}
+
+.navbar .container .nav-linksright ul li {
+    display: flex;
+    margin-right: 50px;
+}
+
+
+
+.navbar .nav-links .nav-linksleft{
+    display: none;
+}
+
+.navbar .nav-links .nav-linksright{
+    display: none;
+}
+
+/*--Menu indépendant (s'applique à toutes les pages)--*/
+
+.navbar {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.navbar a {
+    color: black;
+}
+
+.navbar .logo {
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    top: 10%;
+}
+
+.navbar .logo img {
+
+    width: 100px;
+    height: 100px
+    
+    
+}
+
+.navbar .nav-links .nav-linksleft {
+    position: absolute;
+    left: 35%;
+    padding-top: 37px;
+    
+}
+
+.navbar .nav-links .nav-linksleft ul {
+
+    display: flex;
+    height: 30%;
+    width: 30%;
+}
+
+.navbar .nav-links .nav-linksleft ul li {
+    margin: 0 25px;
+}
+
+.navbar .nav-links .nav-linksleft ul li.active a {
+
+}
+
+/*--Menu indépendant (s'applique à toutes les pages)--*/
+
+.navbar .nav-links .nav-linksright {
+    position: absolute;
+    right: 32%;
+    padding-top: 37px;
+
+    
+}
+
+.navbar .nav-links .nav-linksright ul {
+
+    display: flex;
+    height: 30%;
+    width: 30%;
+}
+
+.navbar .nav-links .nav-linksright ul li {
+    margin: 0 25px;
+}
+
+.navbar  .nav-links .nav-linksright ul li.active a {
+    color: blue;
+    font-weight: 600;
+}
+
+.navbar .menu-hamburger {
+    display: none;
+    position: absolute;
+    right: 35px;
+    top: 25px;
+    width: 35px;
+}
+
+
+.corpsdepage .container {
+    display: block;
+    background-color: white;
+    height: 1409.6px;
+    
+}
+
+.corpsdepage-catalogue .container {
+    display: block;
+    background-color: white;
+    height: 1409.6px;
+    
+}
+
+.corpsdepage-catalogue-1800 .container {
+    display: block;
+    background-color: white;
+    height: 1600px;
+    
+}
+
+.corpsdepage-catalogue-1100 .container {
+    display: block;
+    background-color: white;
+    height: 1900px;
+    
+}
+
+/*--Corps de page + container  de chaque produit catalogue --*/
+
+.corpsdepage-avion-support .container {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    max-height: 100vh;
+    width: 1322px;
+    padding-top: 5%;
+    margin: auto;
+    display: flex; 
+}
+
+.corpsdepage-dragon-articulé .container {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    max-height: 100vh;
+    width: 1322px;
+    padding-top: 5%;
+    margin: auto;
+    display: flex;
+}
+
+.corpsdepage-fidget-star .container {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    max-height: 100vh;
+    width: 1322px;
+    padding-top: 5%;
+    margin: auto;
+    display: flex;
+}
+
+.corpsdepage-slinky .container {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    max-height: 100vh;
+    width: 1322px;
+    padding-top: 5%;
+    margin: auto;
+    display: flex;
+}
+
+.corpsdepage-infinite-cube .container {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    max-height: 100vh;
+    width: 1322px;
+    padding-top: 5%;
+    margin: auto;
+    display: flex;
+}
+
+.corpsdepage-pelleteuse .container {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    max-height: 100vh;
+    width: 1322px;
+    padding-top: 5%;
+    margin: auto;
+    display: flex;
+}
+
+.corpsdepage-camion .container {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    max-height: 100vh;
+    width: 1322px;
+    padding-top: 5%;
+    margin: auto;
+    display: flex;
+}
+
+.corpsdepage-charseuse-sur-pneu .container {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    max-height: 100vh;
+    width: 1322px;
+    padding-top: 5%;
+    margin: auto;
+    display: flex;
+}
+
+.corpsdepage-chariot-elevateur .container {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    max-height: 100vh;
+    width: 1322px;
+    padding-top: 5%;
+    margin: auto;
+    display: flex;
+}
+
+.corpsdepage-rouleau-compresseur .container {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    max-height: 100vh;
+    width: 1322px;
+    padding-top: 5%;
+    margin: auto;
+    display: flex;
+}
+
+
+/*-- Corps de page normal --*/
+
+.corpsdepage .container .impr3d {
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+    align-items: center;
+    background-color: #eedff9;
+}
+
+.corpsdepage .container .impr3d h1 {
+    margin-top: 150px;
+}
+
+.corpsdepage .container .impr3d a {
+    margin-top: 1%;
+    width: 300px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+    color: black;
+    border-radius: 5px;
+}
+
+
+
+.corpsdepage .container .infos {
+    margin-top: 0.5%;
+    background-color: #eedff9;
+    display: flex;
+    flex-direction: row;
+    height: 700px;
+    justify-content: center;
+    align-items: center;
+}
+
+.corpsdepage .container .infos .infosleft {
+    margin-right: 13%;
+}
+
+.corpsdepage .container .infos .infosleft ul {
+    margin-top: 15px;
+}
+
+.corpsdepage .container .infos .infosleft ul li {
+    margin-top: 15px;
+}
+
+.corpsdepage .container .infos .infosleft a {
+    margin-top: 1%;
+    width: 300px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+    color: black;
+    border-radius: 5px;
+}
+
+.corpsdepage .container .infos .infosright {
+    background-color: black;
+    border-radius: 10px;
+    height: 452px;
+    width: 464px;
+    background: url(soon/wallpapers\ print\ 3d\ site\ real.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.5);
+}
+
+.corpsdepage .container .infos .infosright img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 10px;
+}
+
+
+
+.corpsdepage-catalogue .container .cartes-sec1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+}
+
+.corpsdepage-catalogue .container .cartes-sec2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+}
+
+.corpsdepage-catalogue .container .cartes-sec3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+}
+
+/*-- Responsive 1800 --*/
+
+.corpsdepage-catalogue-1800 .container .cartes-sec1-1800 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+}
+
+.corpsdepage-catalogue-1800 .container .cartes-sec2-1800 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+}
+
+.corpsdepage-catalogue-1800 .container .cartes-sec3-1800 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+}
+
+.corpsdepage-catalogue-1800 .container .cartes-sec4-1800 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+}
+
+.corpsdepage-catalogue-1800 .container .cartes-sec1-1800 {
+    display: none;
+}
+
+.corpsdepage-catalogue-1800 .container .cartes-sec2-1800 {
+    display: none;
+}
+
+.corpsdepage-catalogue-1800 .container .cartes-sec3-1800 {
+    display: none;
+}
+
+.corpsdepage-catalogue-1800 .container .cartes-sec4-1800 {
+    display: none;
+}
+
+/*-- Responsive 1100 --*/
+
+.corpsdepage-catalogue-1100 .container .cartes-sec1-1100 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+}
+
+.corpsdepage-catalogue-1100 .container .cartes-sec2-1100 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+}
+
+.corpsdepage-catalogue-1100 .container .cartes-sec3-1100 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+}
+
+.corpsdepage-catalogue-1100 .container .cartes-sec4-1100 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+}
+
+.corpsdepage-catalogue-1100 .container .cartes-sec5-1100 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+}
+
+/*--corps de page avion support --*/
+
+.corpsdepage-avion-support .container .divimg {
+    height: 500px;
+    width: 400px;
+    background: url(avion/IMG_0928.JPG);
+    background-position: 50% 50%;
+    background-size: cover;
+    margin-right: 5%;
+}
+
+.corpsdepage-avion-support .container .infosprod {
+    
+    max-width: 600px;
+    font-size: 1.33em;
+    
+}
+
+.corpsdepage-avion-support .container .infosprod .titre{
+    text-align: center;
+}
+
+.corpsdepage-avion-support .container .infosprod .description{
+    margin-top: 3%;
+}
+
+.corpsdepage-avion-support .container .infosprod .prix{
+    margin-top: 3%;
+    font-size: larger;
+}
+
+.corpsdepage-avion-support .container .infosprod .codeachat{
+    margin-top: 3%;
+}
+
+.corpsdepage-avion-support .container .boutonchange {
+    display: flex;
+    flex-direction: column;
+    margin-right: 3%;
+}
+
+.corpsdepage-avion-support .container .boutonchange .changeimg1{
+    display: block;
+    height: 70px;
+    width: 60px;
+    background: url(avion/IMG_0928.JPG);
+    background-position: 50% 50%;
+    background-size: cover;
+    
+}
+.corpsdepage-avion-support .container .boutonchange .changeimg1 .filtre{
+    display: block;
+    height: 70px;
+    width: 60px;
+    background-color: #eedff962;
+    cursor: pointer;
+    
+}
+
+.corpsdepage-avion-support .container .boutonchange .changeimg2 {
+    display: block;
+    height: 70px;
+    width: 60px;
+    background: url(avion/IMG_0926.JPG);
+    background-position: 50% 50%;
+    background-size: cover;
+    margin-top: 25%;
+}
+
+.corpsdepage-avion-support .container .boutonchange .changeimg2 .filtre{
+    display: block;
+    height: 70px;
+    width: 60px;
+    background-color: #eedff962;
+    cursor: pointer;
+    
+    
+}
+
+.corpsdepage-avion-support .container .boutonchange .changeimg3{
+    display: block;
+    height: 70px;
+    width: 60px;
+    background: url(avion/IMG_0927.JPG);
+    background-position: 50% 50%;
+    background-size: cover;
+    margin-top: 25%;
+}
+
+.corpsdepage-avion-support .container .boutonchange .changeimg3 .filtre{
+    display: block;
+    height: 70px;
+    width: 60px;
+    background-color: #eedff962;
+    cursor: pointer;
+}
+
+.corpsdepage-avion-support .container .prixresponsive {
+    display: none;
+}
+
+/*-- Dragon articulé --*/
+
+.corpsdepage-dragon-articulé .container .divimg {
+    height: 500px;
+    width: 400px;
+    background: url(dragon/IMG_0931.JPG);
+    background-position: 50% 50%;
+    background-size: cover;
+    margin-right: 5%;
+}
+
+.corpsdepage-dragon-articulé .container .infosprod {
+    
+    max-width: 600px;
+    font-size: 1.33em;
+    
+}
+
+.corpsdepage-dragon-articulé .container .infosprod .titre{
+    text-align: center;
+}
+
+.corpsdepage-dragon-articulé .container .infosprod .description{
+    margin-top: 3%;
+}
+
+.corpsdepage-dragon-articulé .container .infosprod .prix{
+    margin-top: 3%;
+    font-size: larger;
+}
+
+.corpsdepage-dragon-articulé .container .infosprod .codeachat{
+    margin-top: 3%;
+}
+
+.corpsdepage-dragon-articulé .container .boutonchange {
+    display: flex;
+    flex-direction: column;
+    margin-right: 3%;
+}
+
+.corpsdepage-dragon-articulé .container .boutonchange .changedrimg1{
+    display: block;
+    height: 70px;
+    width: 60px;
+    background: url(dragon/IMG_0931.JPG);
+    background-position: 50% 50%;
+    background-size: cover;
+    
+}
+.corpsdepage-dragon-articulé .container .boutonchange .changedrimg1 .filtre{
+    display: block;
+    height: 70px;
+    width: 60px;
+    background-color: #eedff962;
+    cursor: pointer;
+    
+}
+
+.corpsdepage-dragon-articulé .container .boutonchange .changedrimg2 {
+    display: block;
+    height: 70px;
+    width: 60px;
+    background: url(dragon/IMG_0932.JPG);
+    background-position: 50% 50%;
+    background-size: cover;
+    margin-top: 25%;
+}
+
+.corpsdepage-dragon-articulé .container .boutonchange .changedrimg2 .filtre{
+    display: block;
+    height: 70px;
+    width: 60px;
+    background-color: #eedff962;
+    cursor: pointer;
+    
+    
+}
+
+.corpsdepage-dragon-articulé .container .boutonchange .changedrimg3{
+    display: block;
+    height: 70px;
+    width: 60px;
+    background: url(dragon/IMG_0934.JPG);
+    background-position: 50% 50%;
+    background-size: cover;
+    margin-top: 25%;
+}
+
+.corpsdepage-dragon-articulé .container .boutonchange .changedrimg3 .filtre{
+    display: block;
+    height: 70px;
+    width: 60px;
+    background-color: #eedff962;
+    cursor: pointer;
+}
+
+.corpsdepage-dragon-articulé .container .prixresponsive {
+    display: none;
+}
+
+/*-- Fidget Star --*/
+
+.corpsdepage-fidget-star .container .divimg {
+    height: 500px;
+    width: 400px;
+    background: url(fidgetstar/IMG_0935.JPG);
+    background-position: 50% 50%;
+    background-size: cover;
+    margin-right: 5%;
+}
+
+.corpsdepage-fidget-star .container .infosprod {
+    
+    max-width: 600px;
+    font-size: 1.33em;
+    
+}
+
+.corpsdepage-fidget-star .container .infosprod .titre{
+    text-align: center;
+}
+
+.corpsdepage-fidget-star .container .infosprod .description{
+    margin-top: 3%;
+}
+
+.corpsdepage-fidget-star .container .infosprod .prix{
+    margin-top: 3%;
+    font-size: larger;
+}
+
+.corpsdepage-fidget-star .container .infosprod .codeachat{
+    margin-top: 3%;
+}
+
+.corpsdepage-fidget-star .container .boutonchange {
+    display: flex;
+    flex-direction: column;
+    margin-right: 3%;
+}
+
+.corpsdepage-fidget-star .container .boutonchange .changefsimg1{
+    display: block;
+    height: 70px;
+    width: 60px;
+    background: url(fidgetstar/IMG_0935.JPG);
+    background-position: 50% 50%;
+    background-size: cover;
+    
+}
+.corpsdepage-fidget-star .container .boutonchange .changefsimg1 .filtre{
+    display: block;
+    height: 70px;
+    width: 60px;
+    background-color: #eedff962;
+    cursor: pointer;
+    
+}
+
+.corpsdepage-fidget-star .container .boutonchange .changefsimg2 {
+    display: block;
+    height: 70px;
+    width: 60px;
+    background: url(fidgetstar/IMG_0936.JPG);
+    background-position: 50% 50%;
+    background-size: cover;
+    margin-top: 25%;
+}
+
+.corpsdepage-fidget-star .container .boutonchange .changefsimg2 .filtre{
+    display: block;
+    height: 70px;
+    width: 60px;
+    background-color: #eedff962;
+    cursor: pointer;
+    
+    
+}
+
+.corpsdepage-fidget-star .container .boutonchange .changefsimg3{
+    display: block;
+    height: 70px;
+    width: 60px;
+    background: url(fidgetstar/IMG_0937.JPG);
+    background-position: 50% 50%;
+    background-size: cover;
+    margin-top: 25%;
+}
+
+.corpsdepage-fidget-star .container .boutonchange .changefsimg3 .filtre{
+    display: block;
+    height: 70px;
+    width: 60px;
+    background-color: #eedff962;
+    cursor: pointer;
+}
+
+.corpsdepage-fidget-star .container .prixresponsive {
+    display: none;
+}
+
+/*-- Slinky --*/
+
+.corpsdepage-slinky .container .divimg {
+    height: 500px;
+    width: 400px;
+    background: url(slinky/IMG_0925.JPG);
+    background-position: 50% 50%;
+    background-size: cover;
+    margin-right: 5%;
+}
+
+.corpsdepage-slinky .container .infosprod {
+    
+    max-width: 600px;
+    font-size: 1.33em;
+    
+}
+
+.corpsdepage-slinky .container .infosprod .titre{
+    text-align: center;
+}
+
+.corpsdepage-slinky .container .infosprod .description{
+    margin-top: 3%;
+}
+
+.corpsdepage-slinky .container .infosprod .prix{
+    margin-top: 3%;
+    font-size: larger;
+}
+
+.corpsdepage-slinky .container .infosprod .codeachat{
+    margin-top: 3%;
+}
+
+.corpsdepage-slinky .container .boutonchange {
+    display: flex;
+    flex-direction: column;
+    margin-right: 3%;
+}
+
+.corpsdepage-slinky .container .boutonchange .changeslimg1{
+    display: block;
+    height: 70px;
+    width: 60px;
+    background: url(slinky/IMG_0925.JPG);
+    background-position: 50% 50%;
+    background-size: cover;
+    
+}
+.corpsdepage-slinky .container .boutonchange .changeslimg1 .filtre{
+    display: block;
+    height: 70px;
+    width: 60px;
+    background-color: #eedff962;
+    cursor: pointer;
+    
+}
+
+.corpsdepage-slinky .container .boutonchange .changeslimg2 {
+    display: block;
+    height: 70px;
+    width: 60px;
+    background: url(slinky/IMG_0924.JPG);
+    background-position: 50% 50%;
+    background-size: cover;
+    margin-top: 25%;
+}
+
+.corpsdepage-slinky .container .boutonchange .changeslimg2 .filtre{
+    display: block;
+    height: 70px;
+    width: 60px;
+    background-color: #eedff962;
+    cursor: pointer;
+    
+    
+}
+
+.corpsdepage-slinky .container .boutonchange .changeslimg3{
+    display: none;
+}
+
+.corpsdepage-slinky .container .boutonchange .changeslimg3 .filtre{
+    display: block;
+    height: 70px;
+    width: 60px;
+    background-color: #eedff962;
+    cursor: pointer;
+}
+
+.corpsdepage-slinky .container .prixresponsive {
+    display: none;
+}
+
+/*-- Infinite cube --*/
+
+.corpsdepage-infinite-cube .container .divimg {
+    height: 500px;
+    width: 400px;
+    background: url(infinitecube/IMG_0929.JPG);
+    background-position: 50% 50%;
+    background-size: cover;
+    margin-right: 5%;
+}
+
+.corpsdepage-infinite-cube .container .infosprod {
+    
+    max-width: 600px;
+    font-size: 1.33em;
+    
+}
+
+.corpsdepage-infinite-cube .container .infosprod .titre{
+    text-align: center;
+}
+
+.corpsdepage-infinite-cube .container .infosprod .description{
+    margin-top: 3%;
+}
+
+.corpsdepage-infinite-cube .container .infosprod .prix{
+    margin-top: 3%;
+    font-size: larger;
+}
+
+.corpsdepage-infinite-cube .container .infosprod .codeachat{
+    margin-top: 3%;
+}
+
+.corpsdepage-infinite-cube .container .boutonchange {
+    display: flex;
+    flex-direction: column;
+    margin-right: 3%;
+}
+
+.corpsdepage-infinite-cube .container .boutonchange .changesinmg1{
+    display: block;
+    height: 70px;
+    width: 60px;
+    background: url(infinitecube/IMG_0929.JPG);
+    background-position: 50% 50%;
+    background-size: cover;
+    
+}
+.corpsdepage-infinite-cube .container .boutonchange .changesinmg1 .filtre{
+    display: block;
+    height: 70px;
+    width: 60px;
+    background-color: #eedff962;
+    cursor: pointer;
+    
+}
+
+.corpsdepage-infinite-cube .container .boutonchange .changesinmg2 {
+    display: block;
+    height: 70px;
+    width: 60px;
+    background: url(infinitecube/IMG_0930.JPG);
+    background-position: 50% 50%;
+    background-size: cover;
+    margin-top: 25%;
+}
+
+.corpsdepage-infinite-cube .container .boutonchange .changesinmg2 .filtre{
+    display: block;
+    height: 70px;
+    width: 60px;
+    background-color: #eedff962;
+    cursor: pointer;
+    
+    
+}
+
+.corpsdepage-infinite-cube .container .boutonchange .changesinmg3{
+    display: none;
+}
+
+.corpsdepage-infinite-cube .container .boutonchange .changesinmg3 .filtre{
+    display: block;
+    height: 70px;
+    width: 60px;
+    background-color: #eedff962;
+    cursor: pointer;
+}
+
+.corpsdepage-infinite-cube .container .prixresponsive {
+    display: none;
+}
+
+/*--corps de page Pelleteuse --*/
+
+.corpsdepage-pelleteuse .container .divimg {
+    height: 500px;
+    width: 400px;
+    background: url(pelleteuse/IMG_0938.JPG);
+    background-position: 50% 50%;
+    background-size: cover;
+    margin-right: 5%;
+}
+
+.corpsdepage-pelleteuse .container .infosprod {
+    
+    max-width: 600px;
+    font-size: 1.33em;
+    
+}
+
+.corpsdepage-pelleteuse .container .infosprod .titre{
+    text-align: center;
+}
+
+.corpsdepage-pelleteuse .container .infosprod .description{
+    margin-top: 3%;
+}
+
+.corpsdepage-pelleteuse .container .infosprod .prix{
+    margin-top: 3%;
+    font-size: larger;
+}
+
+.corpsdepage-pelleteuse .container .infosprod .codeachat{
+    margin-top: 3%;
+}
+
+.corpsdepage-pelleteuse .container .boutonchange {
+    display: flex;
+    flex-direction: column;
+    margin-right: 3%;
+}
+
+.corpsdepage-pelleteuse .container .boutonchange .changeplimg1{
+    display: block;
+    height: 70px;
+    width: 60px;
+    background: url(pelleteuse/IMG_0938.JPG);
+    background-position: 50% 50%;
+    background-size: cover;
+    
+}
+.corpsdepage-pelleteuse .container .boutonchange .changeplimg1 .filtre{
+    display: block;
+    height: 70px;
+    width: 60px;
+    background-color: #eedff962;
+    cursor: pointer;
+    
+}
+
+.corpsdepage-pelleteuse .container .boutonchange .changeplimg2 {
+    display: block;
+    height: 70px;
+    width: 60px;
+    background: url(pelleteuse/IMG_0941.JPG);
+    background-position: 50% 50%;
+    background-size: cover;
+    margin-top: 25%;
+}
+
+.corpsdepage-pelleteuse .container .boutonchange .changeplimg2 .filtre{
+    display: block;
+    height: 70px;
+    width: 60px;
+    background-color: #eedff962;
+    cursor: pointer;
+    
+    
+}
+
+.corpsdepage-pelleteuse .container .boutonchange .changeplimg3{
+    display: block;
+    height: 70px;
+    width: 60px;
+    background: url(pelleteuse/IMG_0939.JPG);
+    background-position: 50% 50%;
+    background-size: cover;
+    margin-top: 25%;
+}
+
+.corpsdepage-pelleteuse .container .boutonchange .changeplimg3 .filtre{
+    display: block;
+    height: 70px;
+    width: 60px;
+    background-color: #eedff962;
+    cursor: pointer;
+}
+
+.corpsdepage-pelleteuse .container .prixresponsive {
+    display: none;
+}
+
+/*--corps de page Camion --*/
+
+.corpsdepage-camion .container .divimg {
+    height: 500px;
+    width: 400px;
+    background: url(camion/IMG_0942.JPG);
+    background-position: 50% 50%;
+    background-size: cover;
+    margin-right: 5%;
+}
+
+.corpsdepage-camion .container .infosprod {
+    
+    max-width: 600px;
+    font-size: 1.33em;
+    
+}
+
+.corpsdepage-camion .container .infosprod .titre{
+    text-align: center;
+}
+
+.corpsdepage-camion .container .infosprod .description{
+    margin-top: 3%;
+}
+
+.corpsdepage-camion .container .infosprod .prix{
+    margin-top: 3%;
+    font-size: larger;
+}
+
+.corpsdepage-camion .container .infosprod .codeachat{
+    margin-top: 3%;
+}
+
+.corpsdepage-camion .container .boutonchange {
+    display: flex;
+    flex-direction: column;
+    margin-right: 3%;
+}
+
+.corpsdepage-camion .container .boutonchange .changecaimg1{
+    display: block;
+    height: 70px;
+    width: 60px;
+    background: url(camion/IMG_0942.JPG);
+    background-position: 50% 50%;
+    background-size: cover;
+    
+}
+.corpsdepage-camion .container .boutonchange .changecaimg1 .filtre{
+    display: block;
+    height: 70px;
+    width: 60px;
+    background-color: #eedff962;
+    cursor: pointer;
+    
+}
+
+.corpsdepage-camion .container .boutonchange .changecaimg2 {
+    display: block;
+    height: 70px;
+    width: 60px;
+    background: url(camion/IMG_0944.JPG);
+    background-position: 50% 50%;
+    background-size: cover;
+    margin-top: 25%;
+}
+
+.corpsdepage-camion .container .boutonchange .changecaimg2 .filtre{
+    display: block;
+    height: 70px;
+    width: 60px;
+    background-color: #eedff962;
+    cursor: pointer;
+    
+    
+}
+
+.corpsdepage-camion .container .boutonchange .changecaimg3{
+    display: block;
+    height: 70px;
+    width: 60px;
+    background: url(camion/IMG_0943.JPG);
+    background-position: 50% 50%;
+    background-size: cover;
+    margin-top: 25%;
+}
+
+.corpsdepage-camion .container .boutonchange .changecaimg3 .filtre{
+    display: block;
+    height: 70px;
+    width: 60px;
+    background-color: #eedff962;
+    cursor: pointer;
+}
+
+.corpsdepage-camion .container .prixresponsive {
+    display: none;
+}
+
+/*--corps de page chargeuse sur pneu --*/
+
+.corpsdepage-charseuse-sur-pneu .container .divimg {
+    height: 500px;
+    width: 400px;
+    background: url(chargeuse/IMG_0945.JPG);
+    background-position: 50% 50%;
+    background-size: cover;
+    margin-right: 5%;
+}
+
+.corpsdepage-charseuse-sur-pneu .container .infosprod {
+    
+    max-width: 600px;
+    font-size: 1.33em;
+    
+}
+
+.corpsdepage-charseuse-sur-pneu .container .infosprod .titre{
+    text-align: center;
+}
+
+.corpsdepage-charseuse-sur-pneu .container .infosprod .description{
+    margin-top: 3%;
+}
+
+.corpsdepage-charseuse-sur-pneu .container .infosprod .prix{
+    margin-top: 3%;
+    font-size: larger;
+}
+
+.corpsdepage-charseuse-sur-pneu .container .infosprod .codeachat{
+    margin-top: 3%;
+}
+
+.corpsdepage-charseuse-sur-pneu .container .boutonchange {
+    display: flex;
+    flex-direction: column;
+    margin-right: 3%;
+}
+
+.corpsdepage-charseuse-sur-pneu .container .boutonchange .changechimg1{
+    display: block;
+    height: 70px;
+    width: 60px;
+    background: url(chargeuse/IMG_0945.JPG);
+    background-position: 50% 50%;
+    background-size: cover;
+    
+}
+.corpsdepage-charseuse-sur-pneu .container .boutonchange .changechimg1 .filtre{
+    display: block;
+    height: 70px;
+    width: 60px;
+    background-color: #eedff962;
+    cursor: pointer;
+    
+}
+
+.corpsdepage-charseuse-sur-pneu .container .boutonchange .changechimg2 {
+    display: block;
+    height: 70px;
+    width: 60px;
+    background: url(chargeuse/IMG_0947.JPG);
+    background-position: 50% 50%;
+    background-size: cover;
+    margin-top: 25%;
+}
+
+.corpsdepage-charseuse-sur-pneu .container .boutonchange .changechimg2 .filtre{
+    display: block;
+    height: 70px;
+    width: 60px;
+    background-color: #eedff962;
+    cursor: pointer;
+    
+    
+}
+
+.corpsdepage-charseuse-sur-pneu .container .boutonchange .changechimg3{
+    display: block;
+    height: 70px;
+    width: 60px;
+    background: url(chargeuse/IMG_0946.JPG);
+    background-position: 50% 50%;
+    background-size: cover;
+    margin-top: 25%;
+}
+
+.corpsdepage-charseuse-sur-pneu .container .boutonchange .changechimg3 .filtre{
+    display: block;
+    height: 70px;
+    width: 60px;
+    background-color: #eedff962;
+    cursor: pointer;
+}
+
+.corpsdepage-charseuse-sur-pneu .container .prixresponsive {
+    display: none;
+}
+
+/*--corps de page chariot élévateur --*/
+
+.corpsdepage-chariot-elevateur .container .divimg {
+    height: 500px;
+    width: 400px;
+    background: url(chariotelevateur/IMG_0950.JPG);
+    background-position: 50% 50%;
+    background-size: cover;
+    margin-right: 5%;
+}
+
+.corpsdepage-chariot-elevateur .container .infosprod {
+    
+    max-width: 600px;
+    font-size: 1.33em;
+    
+}
+
+.corpsdepage-chariot-elevateur .container .infosprod .titre{
+    text-align: center;
+}
+
+.corpsdepage-chariot-elevateur .container .infosprod .description{
+    margin-top: 3%;
+}
+
+.corpsdepage-chariot-elevateur .container .infosprod .prix{
+    margin-top: 3%;
+    font-size: larger;
+}
+
+.corpsdepage-chariot-elevateur .container .infosprod .codeachat{
+    margin-top: 3%;
+}
+
+.corpsdepage-chariot-elevateur .container .boutonchange {
+    display: flex;
+    flex-direction: column;
+    margin-right: 3%;
+}
+
+.corpsdepage-chariot-elevateur .container .boutonchange .changeceimg1{
+    display: block;
+    height: 70px;
+    width: 60px;
+    background: url(chariotelevateur/IMG_0950.JPG);
+    background-position: 50% 50%;
+    background-size: cover;
+    
+}
+.corpsdepage-chariot-elevateur .container .boutonchange .changeceimg1 .filtre{
+    display: block;
+    height: 70px;
+    width: 60px;
+    background-color: #eedff962;
+    cursor: pointer;
+    
+}
+
+.corpsdepage-chariot-elevateur .container .boutonchange .changeceimg2 {
+    display: block;
+    height: 70px;
+    width: 60px;
+    background: url(chariotelevateur/IMG_0954.JPG);
+    background-position: 50% 50%;
+    background-size: cover;
+    margin-top: 25%;
+}
+
+.corpsdepage-chariot-elevateur .container .boutonchange .changeceimg2 .filtre{
+    display: block;
+    height: 70px;
+    width: 60px;
+    background-color: #eedff962;
+    cursor: pointer;
+}
+
+.corpsdepage-chariot-elevateur .container .boutonchange .changeceimg3{
+    display: block;
+    height: 70px;
+    width: 60px;
+    background: url(chariotelevateur/IMG_0952.JPG);
+    background-position: 50% 50%;
+    background-size: cover;
+    margin-top: 25%;
+}
+
+.corpsdepage-chariot-elevateur .container .boutonchange .changeceimg3 .filtre{
+    display: block;
+    height: 70px;
+    width: 60px;
+    background-color: #eedff962;
+    cursor: pointer;
+}
+
+.corpsdepage-chariot-elevateur .container .prixresponsive {
+    display: none;
+}
+
+/*--corps de page chariot rouleau compresseur --*/
+
+.corpsdepage-rouleau-compresseur .container .divimg {
+    height: 500px;
+    width: 400px;
+    background: url(rouleaucompresseur/IMG_0948.JPG);
+    background-position: 50% 50%;
+    background-size: cover;
+    margin-right: 5%;
+}
+
+.corpsdepage-rouleau-compresseur .container .infosprod {
+    
+    max-width: 600px;
+    font-size: 1.33em;
+    
+}
+
+.corpsdepage-rouleau-compresseur .container .infosprod .titre{
+    text-align: center;
+}
+
+.corpsdepage-rouleau-compresseur .container .infosprod .description{
+    margin-top: 3%;
+}
+
+.corpsdepage-rouleau-compresseur .container .infosprod .prix{
+    margin-top: 3%;
+    font-size: larger;
+}
+
+.corpsdepage-rouleau-compresseur .container .infosprod .codeachat{
+    margin-top: 3%;
+}
+
+.corpsdepage-rouleau-compresseur .container .boutonchange {
+    display: flex;
+    flex-direction: column;
+    margin-right: 3%;
+}
+
+.corpsdepage-rouleau-compresseur .container .boutonchange .changeroimg1{
+    display: block;
+    height: 70px;
+    width: 60px;
+    background: url(rouleaucompresseur/IMG_0948.JPG);
+    background-position: 50% 50%;
+    background-size: cover;
+    
+}
+.corpsdepage-rouleau-compresseur .container .boutonchange .changeroimg1 .filtre{
+    display: block;
+    height: 70px;
+    width: 60px;
+    background-color: #eedff962;
+    cursor: pointer;
+    
+}
+
+.corpsdepage-rouleau-compresseur .container .boutonchange .changeroimg2 {
+    display: block;
+    height: 70px;
+    width: 60px;
+    background: url(rouleaucompresseur/IMG_0949.JPG);
+    background-position: 50% 50%;
+    background-size: cover;
+    margin-top: 25%;
+}
+
+.corpsdepage-rouleau-compresseur .container .boutonchange .changeroimg2 .filtre{
+    display: block;
+    height: 70px;
+    width: 60px;
+    background-color: #eedff962;
+    cursor: pointer;
+}
+
+.corpsdepage-rouleau-compresseur .container .boutonchange .changeroimg3{
+    display: none;
+}
+
+.corpsdepage-rouleau-compresseur .container .boutonchange .changeroimg3 .filtre{
+    display: block;
+    height: 70px;
+    width: 60px;
+    background-color: #eedff962;
+    cursor: pointer;
+}
+
+.corpsdepage-rouleau-compresseur .container .prixresponsive {
+    display: none;
+}
+
+/*-- Cartes 1 / sections 1 --*/
+
+.corpsdepage-catalogue .container .cartes-sec1 .carte1 {
+    margin-right: 3%;
+}
+
+.corpsdepage-catalogue .container .cartes-sec1 .carte1 a {
+    width: 300px;
+    height: 350px;
+    display: grid;
+    color: black;
+    grid-template: repeat(2, 150px) repeat(2, 25px) / repeat(3, 100px);
+    border-radius: 5px;
+    background-color: #eedff9;
+    
+    
+}
+
+.corpsdepage-catalogue .container .cartes-sec1 .carte1 a .divImg {
+    grid-area: 1/ 1 / 3 / 4;
+    background: url(avion/IMG_0927.JPG);
+    background-size: cover;
+    background-position: 50% 50%;
+    filter: brightness(90%);
+    border-radius: 5px;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.5);
+}
+
+.corpsdepage-catalogue .container .cartes-sec1 .carte1 a .titre {
+    grid-area: 3 / 1 / 3 / 4;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    
+}
+
+.corpsdepage-catalogue .container .cartes-sec1 .carte1 a hr {
+    opacity: 0.8;
+}
+
+.corpsdepage-catalogue .container .cartes-sec1 .carte1 a .tab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.corpsdepage-catalogue .container .cartes-sec1 .carte1 a .info {
+    grid-area: 4 / 1 / 5 / 4;
+    padding: 2.5px 10px;
+    font-size: 14px; 
+}
+
+/*-- Cartes 2 --*/
+.corpsdepage-catalogue .container .cartes-sec1 .carte2 {
+    margin-right: 3%;
+}
+
+.corpsdepage-catalogue .container .cartes-sec1 .carte2 a {
+    width: 300px;
+    height: 350px;
+    display: grid;
+    color: black;
+    grid-template: repeat(2, 150px) repeat(2, 25px) / repeat(3, 100px);
+    border-radius: 5px;
+    background-color: #eedff9;
+    
+}
+
+.corpsdepage-catalogue .container .cartes-sec1 .carte2 a .divImg {
+    grid-area: 1/ 1 / 3 / 4;
+    background: url(dragon/IMG_0931.JPG);
+    background-size: cover;
+    background-position: 50% 50%;
+    filter: brightness(90%);
+    border-radius: 5px;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.5);
+}
+
+.corpsdepage-catalogue .container .cartes-sec1 .carte2 a .titre {
+    grid-area: 3 / 1 / 3 / 4;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    
+}
+
+.corpsdepage-catalogue .container .cartes-sec1 .carte2 a hr {
+    opacity: 0.8;
+}
+
+.corpsdepage-catalogue .container .cartes-sec1 .carte2 a .tab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.corpsdepage-catalogue .container .cartes-sec1 .carte2 a .info {
+    grid-area: 4 / 1 / 5 / 4;
+    padding: 2.5px 10px;
+    font-size: 14px; 
+}
+
+/*-- Cartes 3 --*/
+
+.corpsdepage-catalogue .container .cartes-sec1 .carte3 {
+    margin-right: 3%;
+}
+
+.corpsdepage-catalogue .container .cartes-sec1 .carte3 a {
+    width: 300px;
+    height: 350px;
+    display: grid;
+    color: black;
+    grid-template: repeat(2, 150px) repeat(2, 25px) / repeat(3, 100px);
+    border-radius: 5px;
+    background-color: #eedff9;
+    
+}
+
+.corpsdepage-catalogue .container .cartes-sec1 .carte3 a .divImg {
+    grid-area: 1/ 1 / 3 / 4;
+    background: url(fidgetstar/IMG_0935.JPG);
+    background-size: cover;
+    background-position: 50% 50%;
+    filter: brightness(90%);
+    border-radius: 5px;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.5);
+}
+
+.corpsdepage-catalogue .container .cartes-sec1 .carte3 a .titre {
+    grid-area: 3 / 1 / 3 / 4;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    
+}
+
+.corpsdepage-catalogue .container .cartes-sec1 .carte3 a hr {
+    opacity: 0.8;
+}
+
+.corpsdepage-catalogue .container .cartes-sec1 .carte3 a .tab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.corpsdepage-catalogue .container .cartes-sec1 .carte3 a .info {
+    grid-area: 4 / 1 / 5 / 4;
+    padding: 2.5px 10px;
+    font-size: 14px; 
+}
+
+/*-- Cartes 4 --*/
+
+.corpsdepage-catalogue .container .cartes-sec1 .carte4 {
+    margin-right: 3%;
+}
+
+.corpsdepage-catalogue .container .cartes-sec1 .carte4 a {
+    width: 300px;
+    height: 350px;
+    display: grid;
+    color: black;
+    grid-template: repeat(2, 150px) repeat(2, 25px) / repeat(3, 100px);
+    border-radius: 5px;
+    background-color: #eedff9;
+    
+}
+
+.corpsdepage-catalogue .container .cartes-sec1 .carte4 a .divImg {
+    grid-area: 1/ 1 / 3 / 4;
+    background: url(slinky/IMG_0925.JPG);
+    background-size: cover;
+    background-position: 50% 50%;
+    filter: brightness(90%);
+    border-radius: 5px;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.5);
+}
+
+.corpsdepage-catalogue .container .cartes-sec1 .carte4 a .titre {
+    grid-area: 3 / 1 / 3 / 4;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    
+}
+
+.corpsdepage-catalogue .container .cartes-sec1 .carte4 a hr {
+    opacity: 0.8;
+}
+
+.corpsdepage-catalogue .container .cartes-sec1 .carte4 a .tab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.corpsdepage-catalogue .container .cartes-sec1 .carte4 a .info {
+    grid-area: 4 / 1 / 5 / 4;
+    padding: 2.5px 10px;
+    font-size: 14px; 
+}
+
+/*-- Cartes 5 --*/
+
+
+
+.corpsdepage-catalogue .container .cartes-sec1 .carte5 a {
+    width: 300px;
+    height: 350px;
+    display: grid;
+    color: black;
+    grid-template: repeat(2, 150px) repeat(2, 25px) / repeat(3, 100px);
+    border-radius: 5px;
+    background-color: #eedff9;
+    
+}
+
+.corpsdepage-catalogue .container .cartes-sec1 .carte5 a .divImg {
+    grid-area: 1/ 1 / 3 / 4;
+    background: url(infinitecube/IMG_0929.JPG);
+    background-size: cover;
+    background-position: 50% 50%;
+    filter: brightness(90%);
+    border-radius: 5px;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.5);
+}
+
+.corpsdepage-catalogue .container .cartes-sec1 .carte5 a .titre {
+    grid-area: 3 / 1 / 3 / 4;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    
+}
+
+.corpsdepage-catalogue .container .cartes-sec1 .carte5 a hr {
+    opacity: 0.8;
+}
+
+.corpsdepage-catalogue .container .cartes-sec1 .carte5 a .tab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.corpsdepage-catalogue .container .cartes-sec1 .carte5 a .info {
+    grid-area: 4 / 1 / 5 / 4;
+    padding: 2.5px 10px;
+    font-size: 14px; 
+}
+
+/*-- Cartes 1 / sections 2 --*/
+
+.corpsdepage-catalogue .container .cartes-sec2 .carte1 {
+    margin-right: 3%;
+}
+
+.corpsdepage-catalogue .container .cartes-sec2 .carte1 a {
+    width: 300px;
+    height: 350px;
+    display: grid;
+    color: black;
+    grid-template: repeat(2, 150px) repeat(2, 25px) / repeat(3, 100px);
+    border-radius: 5px;
+    background-color: #eedff9;
+}
+
+.corpsdepage-catalogue .container .cartes-sec2 .carte1 a .divImg {
+    grid-area: 1/ 1 / 3 / 4;
+    background: url(pelleteuse/IMG_0938.JPG);
+    background-size: cover;
+    background-position: 50% 50%;
+    filter: brightness(90%);
+    border-radius: 5px;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.5);
+}
+
+.corpsdepage-catalogue .container .cartes-sec2 .carte1 a .titre {
+    grid-area: 3 / 1 / 3 / 4;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    
+}
+
+.corpsdepage-catalogue .container .cartes-sec2 .carte1 a hr {
+    opacity: 0.8;
+}
+
+.corpsdepage-catalogue .container .cartes-sec2 .carte1 a .tab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.corpsdepage-catalogue .container .cartes-sec2 .carte1 a .info {
+    grid-area: 4 / 1 / 5 / 4;
+    padding: 2.5px 10px;
+    font-size: 14px; 
+}
+
+/*-- Cartes 2 --*/
+
+.corpsdepage-catalogue .container .cartes-sec2 .carte2 {
+    margin-right: 3%;
+}
+
+.corpsdepage-catalogue .container .cartes-sec2 .carte2 a {
+    width: 300px;
+    height: 350px;
+    display: grid;
+    color: black;
+    grid-template: repeat(2, 150px) repeat(2, 25px) / repeat(3, 100px);
+    border-radius: 5px;
+    background-color: #eedff9;
+    
+}
+
+.corpsdepage-catalogue .container .cartes-sec2 .carte2 a .divImg {
+    grid-area: 1/ 1 / 3 / 4;
+    background: url(camion/IMG_0942.JPG);
+    background-size: cover;
+    background-position: 50% 50%;
+    filter: brightness(90%);
+    border-radius: 5px;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.5);
+}
+
+.corpsdepage-catalogue .container .cartes-sec2 .carte2 a .titre {
+    grid-area: 3 / 1 / 3 / 4;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    
+}
+
+.corpsdepage-catalogue .container .cartes-sec2 .carte2 a hr {
+    opacity: 0.8;
+}
+
+.corpsdepage-catalogue .container .cartes-sec2 .carte2 a .tab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.corpsdepage-catalogue .container .cartes-sec2 .carte2 a .info {
+    grid-area: 4 / 1 / 5 / 4;
+    padding: 2.5px 10px;
+    font-size: 14px; 
+}
+
+/*-- Cartes 3 --*/
+
+.corpsdepage-catalogue .container .cartes-sec2 .carte3 {
+    margin-right: 3%;
+}
+
+.corpsdepage-catalogue .container .cartes-sec2 .carte3 a {
+    width: 300px;
+    height: 350px;
+    display: grid;
+    color: black;
+    grid-template: repeat(2, 150px) repeat(2, 25px) / repeat(3, 100px);
+    border-radius: 5px;
+    background-color: #eedff9;
+    
+}
+
+.corpsdepage-catalogue .container .cartes-sec2 .carte3 a .divImg {
+    grid-area: 1/ 1 / 3 / 4;
+    background: url(chargeuse/IMG_0945.JPG);
+    background-size: cover;
+    background-position: 50% 50%;
+    filter: brightness(90%);
+    border-radius: 5px;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.5);
+}
+
+.corpsdepage-catalogue .container .cartes-sec2 .carte3 a .titre {
+    grid-area: 3 / 1 / 3 / 4;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    
+}
+
+.corpsdepage-catalogue .container .cartes-sec2 .carte3 a hr {
+    opacity: 0.8;
+}
+
+.corpsdepage-catalogue .container .cartes-sec2 .carte3 a .tab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.corpsdepage-catalogue .container .cartes-sec2 .carte3 a .info {
+    grid-area: 4 / 1 / 5 / 4;
+    padding: 2.5px 10px;
+    font-size: 14px; 
+}
+
+/*-- Cartes 4 --*/
+
+.corpsdepage-catalogue .container .cartes-sec2 .carte4 {
+    margin-right: 3%;
+}
+
+.corpsdepage-catalogue .container .cartes-sec2 .carte4 a {
+    width: 300px;
+    height: 350px;
+    display: grid;
+    color: black;
+    grid-template: repeat(2, 150px) repeat(2, 25px) / repeat(3, 100px);
+    border-radius: 5px;
+    background-color: #eedff9;
+    
+}
+
+.corpsdepage-catalogue .container .cartes-sec2 .carte4 a .divImg {
+    grid-area: 1/ 1 / 3 / 4;
+    background: url(chariotelevateur/IMG_0950.JPG);
+    background-size: cover;
+    background-position: 50% 50%;
+    filter: brightness(90%);
+    border-radius: 5px;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.5);
+}
+
+.corpsdepage-catalogue .container .cartes-sec2 .carte4 a .titre {
+    grid-area: 3 / 1 / 3 / 4;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    
+}
+
+.corpsdepage-catalogue .container .cartes-sec2 .carte4 a hr {
+    opacity: 0.8;
+}
+
+.corpsdepage-catalogue .container .cartes-sec2 .carte4 a .tab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.corpsdepage-catalogue .container .cartes-sec2 .carte4 a .info {
+    grid-area: 4 / 1 / 5 / 4;
+    padding: 2.5px 10px;
+    font-size: 14px; 
+}
+
+/*-- Cartes 5 --*/
+
+.corpsdepage-catalogue .container .cartes-sec2 .carte5 a {
+    width: 300px;
+    height: 350px;
+    display: grid;
+    color: black;
+    grid-template: repeat(2, 150px) repeat(2, 25px) / repeat(3, 100px);
+    border-radius: 5px;
+    background-color: #eedff9;
+    
+}
+
+.corpsdepage-catalogue .container .cartes-sec2 .carte5 a .divImg {
+    grid-area: 1/ 1 / 3 / 4;
+    background: url(rouleaucompresseur/IMG_0948.JPG);
+    background-size: cover;
+    background-position: 50% 50%;
+    filter: brightness(90%);
+    border-radius: 5px;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.5);
+}
+
+.corpsdepage-catalogue .container .cartes-sec2 .carte5 a .titre {
+    grid-area: 3 / 1 / 3 / 4;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    
+}
+
+.corpsdepage-catalogue .container .cartes-sec2 .carte5 a hr {
+    opacity: 0.8;
+}
+
+.corpsdepage-catalogue .container .cartes-sec2 .carte5 a .tab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.corpsdepage-catalogue .container .cartes-sec2 .carte5 a .info {
+    grid-area: 4 / 1 / 5 / 4;
+    padding: 2.5px 10px;
+    font-size: 14px; 
+}
+
+/*-- Cartes 1 / sections 3 --*/
+
+.corpsdepage-catalogue .container .cartes-sec3 .carte1 {
+    margin-right: 3%;
+}
+
+.corpsdepage-catalogue .container .cartes-sec3 .carte1 a {
+    width: 300px;
+    height: 350px;
+    display: grid;
+    color: black;
+    grid-template: repeat(2, 150px) repeat(2, 25px) / repeat(3, 100px);
+    border-radius: 5px;
+    background-color: #eedff9;
+}
+
+.corpsdepage-catalogue .container .cartes-sec3 .carte1 a .divImg {
+    grid-area: 1/ 1 / 3 / 4;
+    background: url(soon/visual\ soon.png);
+    background-size: cover;
+    background-position: 50% 50%;
+    filter: brightness(90%);
+    border-radius: 5px;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.5);
+}
+
+.corpsdepage-catalogue .container .cartes-sec3 .carte1 a .titre {
+    grid-area: 3 / 1 / 3 / 4;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    
+}
+
+.corpsdepage-catalogue .container .cartes-sec3 .carte1 a hr {
+    opacity: 0.8;
+}
+
+.corpsdepage-catalogue .container .cartes-sec3 .carte1 a .tab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.corpsdepage-catalogue .container .cartes-sec3 .carte1 a .info {
+    grid-area: 4 / 1 / 5 / 4;
+    padding: 2.5px 10px;
+    font-size: 14px; 
+}
+
+/*-- Cartes 2 --*/
+
+.corpsdepage-catalogue .container .cartes-sec3 .carte2 {
+    margin-right: 3%;
+}
+
+.corpsdepage-catalogue .container .cartes-sec3 .carte2 a {
+    width: 300px;
+    height: 350px;
+    display: grid;
+    color: black;
+    grid-template: repeat(2, 150px) repeat(2, 25px) / repeat(3, 100px);
+    border-radius: 5px;
+    background-color: #eedff9;
+    
+}
+
+.corpsdepage-catalogue .container .cartes-sec3 .carte2 a .divImg {
+    grid-area: 1/ 1 / 3 / 4;
+    background: url(soon/visual\ soon.png);
+    background-size: cover;
+    background-position: 50% 50%;
+    filter: brightness(90%);
+    border-radius: 5px;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.5);
+}
+
+.corpsdepage-catalogue .container .cartes-sec3 .carte2 a .titre {
+    grid-area: 3 / 1 / 3 / 4;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    
+}
+
+.corpsdepage-catalogue .container .cartes-sec3 .carte2 a hr {
+    opacity: 0.8;
+}
+
+.corpsdepage-catalogue .container .cartes-sec3 .carte2 a .tab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.corpsdepage-catalogue .container .cartes-sec3 .carte2 a .info {
+    grid-area: 4 / 1 / 5 / 4;
+    padding: 2.5px 10px;
+    font-size: 14px; 
+}
+
+/*-- Cartes 3 --*/
+
+.corpsdepage-catalogue .container .cartes-sec3 .carte3 {
+    margin-right: 3%;
+}
+
+.corpsdepage-catalogue .container .cartes-sec3 .carte3 a {
+    width: 300px;
+    height: 350px;
+    display: grid;
+    color: black;
+    grid-template: repeat(2, 150px) repeat(2, 25px) / repeat(3, 100px);
+    border-radius: 5px;
+    background-color: #eedff9;
+    
+}
+
+.corpsdepage-catalogue .container .cartes-sec3 .carte3 a .divImg {
+    grid-area: 1/ 1 / 3 / 4;
+    background: url(soon/visual\ soon.png);
+    background-size: cover;
+    background-position: 50% 50%;
+    filter: brightness(90%);
+    border-radius: 5px;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.5);
+}
+
+.corpsdepage-catalogue .container .cartes-sec3 .carte3 a .titre {
+    grid-area: 3 / 1 / 3 / 4;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    
+}
+
+.corpsdepage-catalogue .container .cartes-sec3 .carte3 a hr {
+    opacity: 0.8;
+}
+
+.corpsdepage-catalogue .container .cartes-sec3 .carte3 a .tab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.corpsdepage-catalogue .container .cartes-sec3 .carte3 a .info {
+    grid-area: 4 / 1 / 5 / 4;
+    padding: 2.5px 10px;
+    font-size: 14px; 
+}
+
+/*-- Cartes 4 --*/
+
+.corpsdepage-catalogue .container .cartes-sec3 .carte4 {
+    margin-right: 3%;
+}
+
+.corpsdepage-catalogue .container .cartes-sec3 .carte4 a {
+    width: 300px;
+    height: 350px;
+    display: grid;
+    color: black;
+    grid-template: repeat(2, 150px) repeat(2, 25px) / repeat(3, 100px);
+    border-radius: 5px;
+    background-color: #eedff9;
+    
+}
+
+.corpsdepage-catalogue .container .cartes-sec3 .carte4 a .divImg {
+    grid-area: 1/ 1 / 3 / 4;
+    background: url(soon/visual\ soon.png);
+    background-size: cover;
+    background-position: 50% 50%;
+    filter: brightness(90%);
+    border-radius: 5px;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.5);
+}
+
+.corpsdepage-catalogue .container .cartes-sec3 .carte4 a .titre {
+    grid-area: 3 / 1 / 3 / 4;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    
+}
+
+.corpsdepage-catalogue .container .cartes-sec3 .carte4 a hr {
+    opacity: 0.8;
+}
+
+.corpsdepage-catalogue .container .cartes-sec3 .carte4 a .tab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.corpsdepage-catalogue .container .cartes-sec3 .carte4 a .info {
+    grid-area: 4 / 1 / 5 / 4;
+    padding: 2.5px 10px;
+    font-size: 14px; 
+}
+
+/*-- Cartes 5 --*/
+
+.corpsdepage-catalogue .container .cartes-sec3 .carte5 a {
+    width: 300px;
+    height: 350px;
+    display: grid;
+    color: black;
+    grid-template: repeat(2, 150px) repeat(2, 25px) / repeat(3, 100px);
+    border-radius: 5px;
+    background-color: #eedff9;
+    
+}
+
+.corpsdepage-catalogue .container .cartes-sec3 .carte5 a .divImg {
+    grid-area: 1/ 1 / 3 / 4;
+    background: url(soon/visual\ soon.png);
+    background-size: cover;
+    background-position: 50% 50%;
+    filter: brightness(90%);
+    border-radius: 5px;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.5);
+}
+
+.corpsdepage-catalogue .container .cartes-sec3 .carte5 a .titre {
+    grid-area: 3 / 1 / 3 / 4;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    
+}
+
+.corpsdepage-catalogue .container .cartes-sec3 .carte5 a hr {
+    opacity: 0.8;
+}
+
+.corpsdepage-catalogue .container .cartes-sec3 .carte5 a .tab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.corpsdepage-catalogue .container .cartes-sec3 .carte5 a .info {
+    grid-area: 4 / 1 / 5 / 4;
+    padding: 2.5px 10px;
+    font-size: 14px; 
+}
+
+footer {
+    margin-top: 0.5%;
+    height: 250px;
+    color: bisque;
+    background-color: black;
+    box-shadow:  0px 10px 10px -10px white inset;
+}
+
+footer .container {    
+    height: 250px;
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+    
+}
+
+footer .container .contact {
+    height: 200px;
+    margin-right: 10%;
+    
+}
+
+footer .container .contact h2 {
+    margin-top: 14.05px;
+    text-align: center; 
+}
+
+footer .container .Store {
+    height: 200px;
+    width: 351.4px;
+}
+
+footer .container .Store a {
+    color: bisque;
+}
+
+footer .container .Store h2 {
+    margin-top: 14.05px;
+}
+
+footer .container .Store .logobar li a .fa-instagram-square {
+    color: bisque;
+    margin-top: 5px;
+}
+
+footer .container .contactresponsive {
+    display: none;
+}
+
+@media screen and (max-width: 1700px){
+
+    .navbar .container {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .navbar .container .logo {
+        position: static;
+        height: 100px;
+        width: 100px;
+    }
+
+    .navbar .container .nav-linksleft {
+        display: inline;
+        margin-right: 25px;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    .navbar .container .nav-linksright {
+        display: inline;
+        margin-left: 50px;
+        margin-top: auto;
+        margin-bottom: auto;
+        
+    }
+
+    .navbar .container .nav-linksleft ul {
+        display: flex;
+    }
+
+    .navbar .container .nav-linksleft ul li {
+        margin-right: 50px;
+    }
+
+    .navbar .container .nav-linksright ul {
+        display: flex;
+    }
+
+    .navbar .container .nav-linksright ul li {
+        display: flex;
+        margin-right: 50px;
+    }
+
+
+
+    .navbar .nav-links .nav-linksleft{
+        display: none;
+    }
+
+    .navbar .nav-links .nav-linksright{
+        display: none;
+    }
+}
+
+
+
+@media screen and (max-width: 1800px) {
+
+    .corpsdepage-catalogue {
+        display: none;
+    }
+
+    .corpsdepage-catalogue .container .cartes-sec1 {
+        display: none;
+    }
+
+    .corpsdepage-catalogue .container .cartes-sec2 {
+        display: none;
+    }
+
+    .corpsdepage-catalogue .container .cartes-sec3 {
+        display: none;
+    }
+
+    /*-- Activation --*/
+
+    .corpsdepage-catalogue-1800 {
+        display: block;
+    }
+
+    .corpsdepage-catalogue-1800 .container .cartes-sec1-1800  {
+        display: flex;
+    }
+
+    .corpsdepage-catalogue-1800 .container .cartes-sec2-1800  {
+        display: flex;
+    }
+
+    .corpsdepage-catalogue-1800 .container .cartes-sec3-1800  {
+        display: flex;
+    }
+
+    .corpsdepage-catalogue-1800 .container .cartes-sec4-1800  {
+        display: flex;
+    }
+
+    /*-- Cartes 1 / sections 1-1800 --*/
+
+    .corpsdepage-catalogue-1800 .container .cartes-sec1-1800 .carte1 {
+        margin-right: 3%;
+    }
+    
+    .corpsdepage-catalogue-1800 .container .cartes-sec1-1800 .carte1 a {
+        width: 300px;
+        height: 350px;
+        display: grid;
+        color: black;
+        grid-template: repeat(2, 150px) repeat(2, 25px) / repeat(3, 100px);
+        border-radius: 5px;
+        background-color: #eedff9;
+        
+        
+    }
+    
+    .corpsdepage-catalogue-1800 .container .cartes-sec1-1800 .carte1 a .divImg {
+        grid-area: 1/ 1 / 3 / 4;
+        background: url(avion/IMG_0927.JPG);
+        background-size: cover;
+        background-position: 50% 50%;
+        filter: brightness(90%);
+        border-radius: 5px;
+        box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.5);
+    }
+    
+    .corpsdepage-catalogue-1800 .container .cartes-sec1-1800 .carte1 a .titre {
+        grid-area: 3 / 1 / 3 / 4;
+        padding-left: 10px;
+        padding-right: 10px;
+        
+        
+    }
+    
+    .corpsdepage-catalogue-1800 .container .cartes-sec1-1800 .carte1 a hr {
+        opacity: 0.8;
+    }
+    
+    .corpsdepage-catalogue-1800 .container .cartes-sec1-1800 .carte1 a .tab {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+    }
+    
+    .corpsdepage-catalogue-1800 .container .cartes-sec1-1800 .carte1 a .info {
+        grid-area: 4 / 1 / 5 / 4;
+        padding: 2.5px 10px;
+        font-size: 14px; 
+    }
+
+    /*-- Cartes 2 --*/
+
+    .corpsdepage-catalogue-1800 .container .cartes-sec1-1800 .carte2 {
+        margin-right: 3%;
+    }
+    
+    .corpsdepage-catalogue-1800 .container .cartes-sec1-1800 .carte2 a {
+        width: 300px;
+        height: 350px;
+        display: grid;
+        color: black;
+        grid-template: repeat(2, 150px) repeat(2, 25px) / repeat(3, 100px);
+        border-radius: 5px;
+        background-color: #eedff9;
+        
+        
+    }
+    
+    .corpsdepage-catalogue-1800 .container .cartes-sec1-1800 .carte2 a .divImg {
+        grid-area: 1/ 1 / 3 / 4;
+        background: url(dragon/IMG_0931.JPG);
+        background-size: cover;
+        background-position: 50% 50%;
+        filter: brightness(90%);
+        border-radius: 5px;
+        box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.5);
+    }
+    
+    .corpsdepage-catalogue-1800 .container .cartes-sec1-1800 .carte2 a .titre {
+        grid-area: 3 / 1 / 3 / 4;
+        padding-left: 10px;
+        padding-right: 10px;
+        
+        
+    }
+    
+    .corpsdepage-catalogue-1800 .container .cartes-sec1-1800 .carte2 a hr {
+        opacity: 0.8;
+    }
+    
+    .corpsdepage-catalogue-1800 .container .cartes-sec1-1800 .carte2 a .tab {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+    }
+    
+    .corpsdepage-catalogue-1800 .container .cartes-sec1-1800 .carte2 a .info {
+        grid-area: 4 / 1 / 5 / 4;
+        padding: 2.5px 10px;
+        font-size: 14px; 
+    }
+
+/*-- Cartes 3 --*/
+
+
+
+.corpsdepage-catalogue-1800 .container .cartes-sec1-1800 .carte3 a {
+    width: 300px;
+    height: 350px;
+    display: grid;
+    color: black;
+    grid-template: repeat(2, 150px) repeat(2, 25px) / repeat(3, 100px);
+    border-radius: 5px;
+    background-color: #eedff9;
+    
+    
+}
+
+.corpsdepage-catalogue-1800 .container .cartes-sec1-1800 .carte3 a .divImg {
+    grid-area: 1/ 1 / 3 / 4;
+    background: url(fidgetstar/IMG_0935.JPG);
+    background-size: cover;
+    background-position: 50% 50%;
+    filter: brightness(90%);
+    border-radius: 5px;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.5);
+}
+
+.corpsdepage-catalogue-1800 .container .cartes-sec1-1800 .carte3 a .titre {
+    grid-area: 3 / 1 / 3 / 4;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    
+}
+
+.corpsdepage-catalogue-1800 .container .cartes-sec1-1800 .carte3 a hr {
+    opacity: 0.8;
+}
+
+.corpsdepage-catalogue-1800 .container .cartes-sec1-1800 .carte3 a .tab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.corpsdepage-catalogue-1800 .container .cartes-sec1-1800 .carte3 a .info {
+    grid-area: 4 / 1 / 5 / 4;
+    padding: 2.5px 10px;
+    font-size: 14px; 
+}
+
+/*-- Cartes 1 / sections 2-1800 --*/
+
+.corpsdepage-catalogue-1800 .container .cartes-sec2-1800 .carte1 {
+    margin-right: 3%;
+}
+
+.corpsdepage-catalogue-1800 .container .cartes-sec2-1800 .carte1 a {
+    width: 300px;
+    height: 350px;
+    display: grid;
+    color: black;
+    grid-template: repeat(2, 150px) repeat(2, 25px) / repeat(3, 100px);
+    border-radius: 5px;
+    background-color: #eedff9;
+    
+    
+}
+
+.corpsdepage-catalogue-1800 .container .cartes-sec2-1800 .carte1 a .divImg {
+    grid-area: 1/ 1 / 3 / 4;
+    background: url(slinky/IMG_0925.JPG);
+    background-size: cover;
+    background-position: 50% 50%;
+    filter: brightness(90%);
+    border-radius: 5px;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.5);
+}
+
+.corpsdepage-catalogue-1800 .container .cartes-sec2-1800 .carte1 a .titre {
+    grid-area: 3 / 1 / 3 / 4;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    
+}
+
+.corpsdepage-catalogue-1800 .container .cartes-sec2-1800 .carte1 a hr {
+    opacity: 0.8;
+}
+
+.corpsdepage-catalogue-1800 .container .cartes-sec2-1800 .carte1 a .tab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.corpsdepage-catalogue-1800 .container .cartes-sec2-1800 .carte1 a .info {
+    grid-area: 4 / 1 / 5 / 4;
+    padding: 2.5px 10px;
+    font-size: 14px; 
+}
+
+/*-- Cartes 2 --*/
+
+.corpsdepage-catalogue-1800 .container .cartes-sec2-1800 .carte2 {
+    margin-right: 3%;
+}
+
+.corpsdepage-catalogue-1800 .container .cartes-sec2-1800 .carte2 a {
+    width: 300px;
+    height: 350px;
+    display: grid;
+    color: black;
+    grid-template: repeat(2, 150px) repeat(2, 25px) / repeat(3, 100px);
+    border-radius: 5px;
+    background-color: #eedff9;
+    
+    
+}
+
+.corpsdepage-catalogue-1800 .container .cartes-sec2-1800 .carte2 a .divImg {
+    grid-area: 1/ 1 / 3 / 4;
+    background: url(infinitecube/IMG_0929.JPG);
+    background-size: cover;
+    background-position: 50% 50%;
+    filter: brightness(90%);
+    border-radius: 5px;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.5);
+}
+
+.corpsdepage-catalogue-1800 .container .cartes-sec2-1800 .carte2 a .titre {
+    grid-area: 3 / 1 / 3 / 4;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    
+}
+
+.corpsdepage-catalogue-1800 .container .cartes-sec2-1800 .carte2 a hr {
+    opacity: 0.8;
+}
+
+.corpsdepage-catalogue-1800 .container .cartes-sec2-1800 .carte2 a .tab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.corpsdepage-catalogue-1800 .container .cartes-sec2-1800 .carte2 a .info {
+    grid-area: 4 / 1 / 5 / 4;
+    padding: 2.5px 10px;
+    font-size: 14px; 
+}
+
+/*-- Cartes 3 --*/
+
+.corpsdepage-catalogue-1800 .container .cartes-sec2-1800 .carte3 a {
+width: 300px;
+height: 350px;
+display: grid;
+color: black;
+grid-template: repeat(2, 150px) repeat(2, 25px) / repeat(3, 100px);
+border-radius: 5px;
+background-color: #eedff9;
+
+
+}
+
+.corpsdepage-catalogue-1800 .container .cartes-sec2-1800 .carte3 a .divImg {
+grid-area: 1/ 1 / 3 / 4;
+background: url(pelleteuse/IMG_0938.JPG);
+background-size: cover;
+background-position: 50% 50%;
+filter: brightness(90%);
+border-radius: 5px;
+box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.5);
+}
+
+.corpsdepage-catalogue-1800 .container .cartes-sec2-1800 .carte3 a .titre {
+grid-area: 3 / 1 / 3 / 4;
+padding-left: 10px;
+padding-right: 10px;
+
+
+}
+
+.corpsdepage-catalogue-1800 .container .cartes-sec2-1800 .carte3 a hr {
+opacity: 0.8;
+}
+
+.corpsdepage-catalogue-1800 .container .cartes-sec2-1800 .carte3 a .tab {
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 10px;
+}
+
+.corpsdepage-catalogue-1800 .container .cartes-sec2-1800 .carte3 a .info {
+grid-area: 4 / 1 / 5 / 4;
+padding: 2.5px 10px;
+font-size: 14px; 
+}
+
+    /*-- Cartes 1 / sections 3-1800 --*/
+
+    .corpsdepage-catalogue-1800 .container .cartes-sec3-1800 .carte1 {
+        margin-right: 3%;
+    }
+    
+    .corpsdepage-catalogue-1800 .container .cartes-sec3-1800 .carte1 a {
+        width: 300px;
+        height: 350px;
+        display: grid;
+        color: black;
+        grid-template: repeat(2, 150px) repeat(2, 25px) / repeat(3, 100px);
+        border-radius: 5px;
+        background-color: #eedff9;
+        
+        
+    }
+    
+    .corpsdepage-catalogue-1800 .container .cartes-sec3-1800 .carte1 a .divImg {
+        grid-area: 1/ 1 / 3 / 4;
+        background: url(camion/IMG_0942.JPG);
+        background-size: cover;
+        background-position: 50% 50%;
+        filter: brightness(90%);
+        border-radius: 5px;
+        box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.5);
+    }
+    
+    .corpsdepage-catalogue-1800 .container .cartes-sec3-1800 .carte1 a .titre {
+        grid-area: 3 / 1 / 3 / 4;
+        padding-left: 10px;
+        padding-right: 10px;
+        
+        
+    }
+    
+    .corpsdepage-catalogue-1800 .container .cartes-sec3-1800 .carte1 a hr {
+        opacity: 0.8;
+    }
+    
+    .corpsdepage-catalogue-1800 .container .cartes-sec3-1800 .carte1 a .tab {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+    }
+    
+    .corpsdepage-catalogue-1800 .container .cartes-sec3-1800 .carte1 a .info {
+        grid-area: 4 / 1 / 5 / 4;
+        padding: 2.5px 10px;
+        font-size: 14px; 
+    }
+
+    /*-- Cartes 2 --*/
+
+    .corpsdepage-catalogue-1800 .container .cartes-sec3-1800 .carte2 {
+        margin-right: 3%;
+    }
+    
+    .corpsdepage-catalogue-1800 .container .cartes-sec3-1800 .carte2 a {
+        width: 300px;
+        height: 350px;
+        display: grid;
+        color: black;
+        grid-template: repeat(2, 150px) repeat(2, 25px) / repeat(3, 100px);
+        border-radius: 5px;
+        background-color: #eedff9;
+        
+        
+    }
+    
+    .corpsdepage-catalogue-1800 .container .cartes-sec3-1800 .carte2 a .divImg {
+        grid-area: 1/ 1 / 3 / 4;
+        background: url(chargeuse/IMG_0945.JPG);
+        background-size: cover;
+        background-position: 50% 50%;
+        filter: brightness(90%);
+        border-radius: 5px;
+        box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.5);
+    }
+    
+    .corpsdepage-catalogue-1800 .container .cartes-sec3-1800 .carte2 a .titre {
+        grid-area: 3 / 1 / 3 / 4;
+        padding-left: 10px;
+        padding-right: 10px;
+        
+        
+    }
+    
+    .corpsdepage-catalogue-1800 .container .cartes-sec3-1800 .carte2 a hr {
+        opacity: 0.8;
+    }
+    
+    .corpsdepage-catalogue-1800 .container .cartes-sec3-1800 .carte2 a .tab {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+    }
+    
+    .corpsdepage-catalogue-1800 .container .cartes-sec3-1800 .carte2 a .info {
+        grid-area: 4 / 1 / 5 / 4;
+        padding: 2.5px 10px;
+        font-size: 14px; 
+    }
+
+/*-- Cartes 3 --*/
+
+.corpsdepage-catalogue-1800 .container .cartes-sec3-1800 .carte3 a {
+    width: 300px;
+    height: 350px;
+    display: grid;
+    color: black;
+    grid-template: repeat(2, 150px) repeat(2, 25px) / repeat(3, 100px);
+    border-radius: 5px;
+    background-color: #eedff9;
+    
+    
+}
+
+.corpsdepage-catalogue-1800 .container .cartes-sec3-1800 .carte3 a .divImg {
+    grid-area: 1/ 1 / 3 / 4;
+    background: url(chariotelevateur/IMG_0950.JPG);
+    background-size: cover;
+    background-position: 50% 50%;
+    filter: brightness(90%);
+    border-radius: 5px;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.5);
+}
+
+.corpsdepage-catalogue-1800 .container .cartes-sec3-1800 .carte3 a .titre {
+    grid-area: 3 / 1 / 3 / 4;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    
+}
+
+.corpsdepage-catalogue-1800 .container .cartes-sec3-1800 .carte3 a hr {
+    opacity: 0.8;
+}
+
+.corpsdepage-catalogue-1800 .container .cartes-sec3-1800 .carte3 a .tab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.corpsdepage-catalogue-1800 .container .cartes-sec3-1800 .carte3 a .info {
+    grid-area: 4 / 1 / 5 / 4;
+    padding: 2.5px 10px;
+    font-size: 14px; 
+}
+    
+
+    /*-- Cartes 1 / sections 4-1800 --*/
+
+    .corpsdepage-catalogue-1800 .container .cartes-sec4-1800 .carte1 {
+        margin-right: 3%;
+    }
+    
+    .corpsdepage-catalogue-1800 .container .cartes-sec4-1800 .carte1 a {
+        width: 300px;
+        height: 350px;
+        display: grid;
+        color: black;
+        grid-template: repeat(2, 150px) repeat(2, 25px) / repeat(3, 100px);
+        border-radius: 5px;
+        background-color: #eedff9;
+        
+        
+    }
+    
+    .corpsdepage-catalogue-1800 .container .cartes-sec4-1800 .carte1 a .divImg {
+        grid-area: 1/ 1 / 3 / 4;
+        background: url(rouleaucompresseur/IMG_0948.JPG);
+        background-size: cover;
+        background-position: 50% 50%;
+        filter: brightness(90%);
+        border-radius: 5px;
+        box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.5);
+    }
+    
+    .corpsdepage-catalogue-1800 .container .cartes-sec4-1800 .carte1 a .titre {
+        grid-area: 3 / 1 / 3 / 4;
+        padding-left: 10px;
+        padding-right: 10px;
+        
+        
+    }
+    
+    .corpsdepage-catalogue-1800 .container .cartes-sec4-1800 .carte1 a hr {
+        opacity: 0.8;
+    }
+    
+    .corpsdepage-catalogue-1800 .container .cartes-sec4-1800 .carte1 a .tab {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+    }
+    
+    .corpsdepage-catalogue-1800 .container .cartes-sec4-1800 .carte1 a .info {
+        grid-area: 4 / 1 / 5 / 4;
+        padding: 2.5px 10px;
+        font-size: 14px; 
+    }
+
+    /*-- Cartes 2 --*/
+
+    .corpsdepage-catalogue-1800 .container .cartes-sec4-1800 .carte2 {
+        margin-right: 3%;
+    }
+    
+    .corpsdepage-catalogue-1800 .container .cartes-sec4-1800 .carte2 a {
+        width: 300px;
+        height: 350px;
+        display: grid;
+        color: black;
+        grid-template: repeat(2, 150px) repeat(2, 25px) / repeat(3, 100px);
+        border-radius: 5px;
+        background-color: #eedff9;
+        
+        
+    }
+    
+    .corpsdepage-catalogue-1800 .container .cartes-sec4-1800 .carte2 a .divImg {
+        grid-area: 1/ 1 / 3 / 4;
+        background: url(soon/visual\ soon.png);
+        background-size: cover;
+        background-position: 50% 50%;
+        filter: brightness(90%);
+        border-radius: 5px;
+        box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.5);
+    }
+    
+    .corpsdepage-catalogue-1800 .container .cartes-sec4-1800 .carte2 a .titre {
+        grid-area: 3 / 1 / 3 / 4;
+        padding-left: 10px;
+        padding-right: 10px;
+        
+        
+    }
+    
+    .corpsdepage-catalogue-1800 .container .cartes-sec4-1800 .carte2 a hr {
+        opacity: 0.8;
+    }
+    
+    .corpsdepage-catalogue-1800 .container .cartes-sec4-1800 .carte2 a .tab {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+    }
+    
+    .corpsdepage-catalogue-1800 .container .cartes-sec4-1800 .carte2 a .info {
+        grid-area: 4 / 1 / 5 / 4;
+        padding: 2.5px 10px;
+        font-size: 14px; 
+    }
+
+/*-- Cartes 3 --*/
+
+
+
+.corpsdepage-catalogue-1800 .container .cartes-sec4-1800 .carte3 a {
+    width: 300px;
+    height: 350px;
+    display: grid;
+    color: black;
+    grid-template: repeat(2, 150px) repeat(2, 25px) / repeat(3, 100px);
+    border-radius: 5px;
+    background-color: #eedff9;
+    
+    
+}
+
+.corpsdepage-catalogue-1800 .container .cartes-sec4-1800 .carte3 a .divImg {
+    grid-area: 1/ 1 / 3 / 4;
+    background: url(soon/visual\ soon.png);
+    background-size: cover;
+    background-position: 50% 50%;
+    filter: brightness(90%);
+    border-radius: 5px;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.5);
+}
+
+.corpsdepage-catalogue-1800 .container .cartes-sec4-1800 .carte3 a .titre {
+    grid-area: 3 / 1 / 3 / 4;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    
+}
+
+.corpsdepage-catalogue-1800 .container .cartes-sec4-1800 .carte3 a hr {
+    opacity: 0.8;
+}
+
+.corpsdepage-catalogue-1800 .container .cartes-sec4-1800 .carte3 a .tab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.corpsdepage-catalogue-1800 .container .cartes-sec4-1800 .carte3 a .info {
+    grid-area: 4 / 1 / 5 / 4;
+    padding: 2.5px 10px;
+    font-size: 14px; 
+}
+
+}
+
+@media screen and (max-width: 1100px) {
+
+    .corpsdepage-catalogue-1800 {
+        display: none;
+    }
+
+    .corpsdepage-catalogue-1100 {
+        display: block;
+    }
+
+    /*-- Cartes 1 / sections 1-1100 --*/
+
+    .corpsdepage-catalogue-1100 .container .cartes-sec1-1100 .carte1 {
+        margin-right: 3%;
+    }
+    
+    .corpsdepage-catalogue-1100 .container .cartes-sec1-1100 .carte1 a {
+        width: 300px;
+        height: 350px;
+        display: grid;
+        color: black;
+        grid-template: repeat(2, 150px) repeat(2, 25px) / repeat(3, 100px);
+        border-radius: 5px;
+        background-color: #eedff9;
+        
+        
+    }
+    
+    .corpsdepage-catalogue-1100 .container .cartes-sec1-1100 .carte1 a .divImg {
+        grid-area: 1/ 1 / 3 / 4;
+        background: url(avion/IMG_0927.JPG);
+        background-size: cover;
+        background-position: 50% 50%;
+        filter: brightness(90%);
+        border-radius: 5px;
+        box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.5);
+    }
+    
+    .corpsdepage-catalogue-1100 .container .cartes-sec1-1100 .carte1 a .titre {
+        grid-area: 3 / 1 / 3 / 4;
+        padding-left: 10px;
+        padding-right: 10px;
+        
+        
+    }
+    
+    .corpsdepage-catalogue-1100 .container .cartes-sec1-1100 .carte1 a hr {
+        opacity: 0.8;
+    }
+    
+    .corpsdepage-catalogue-1100 .container .cartes-sec1-1100 .carte1 a .tab {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+    }
+    
+    .corpsdepage-catalogue-1100 .container .cartes-sec1-1100 .carte1 a .info {
+        grid-area: 4 / 1 / 5 / 4;
+        padding: 2.5px 10px;
+        font-size: 14px; 
+    }
+
+    /*-- Cartes 2 --*/
+    
+    .corpsdepage-catalogue-1100 .container .cartes-sec1-1100 .carte2 a {
+        width: 300px;
+        height: 350px;
+        display: grid;
+        color: black;
+        grid-template: repeat(2, 150px) repeat(2, 25px) / repeat(3, 100px);
+        border-radius: 5px;
+        background-color: #eedff9;
+        
+        
+    }
+    
+    .corpsdepage-catalogue-1100 .container .cartes-sec1-1100 .carte2 a .divImg {
+        grid-area: 1/ 1 / 3 / 4;
+        background: url(dragon/IMG_0931.JPG);
+        background-size: cover;
+        background-position: 50% 50%;
+        filter: brightness(90%);
+        border-radius: 5px;
+        box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.5);
+    }
+    
+    .corpsdepage-catalogue-1100 .container .cartes-sec1-1100 .carte2 a .titre {
+        grid-area: 3 / 1 / 3 / 4;
+        padding-left: 10px;
+        padding-right: 10px;
+        
+        
+    }
+    
+    .corpsdepage-catalogue-1100 .container .cartes-sec1-1100 .carte2 a hr {
+        opacity: 0.8;
+    }
+    
+    .corpsdepage-catalogue-1100 .container .cartes-sec1-1100 .carte2 a .tab {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+    }
+    
+    .corpsdepage-catalogue-1100 .container .cartes-sec1-1100 .carte2 a .info {
+        grid-area: 4 / 1 / 5 / 4;
+        padding: 2.5px 10px;
+        font-size: 14px; 
+    }
+
+    /*-- Cartes 1 / sections 2-1100 --*/
+
+    .corpsdepage-catalogue-1100 .container .cartes-sec2-1100 .carte1 {
+        margin-right: 3%;
+    }
+    
+    .corpsdepage-catalogue-1100 .container .cartes-sec2-1100 .carte1 a {
+        width: 300px;
+        height: 350px;
+        display: grid;
+        color: black;
+        grid-template: repeat(2, 150px) repeat(2, 25px) / repeat(3, 100px);
+        border-radius: 5px;
+        background-color: #eedff9;
+        
+        
+    }
+    
+    .corpsdepage-catalogue-1100 .container .cartes-sec2-1100 .carte1 a .divImg {
+        grid-area: 1/ 1 / 3 / 4;
+        background: url(fidgetstar/IMG_0935.JPG);
+        background-size: cover;
+        background-position: 50% 50%;
+        filter: brightness(90%);
+        border-radius: 5px;
+        box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.5);
+    }
+    
+    .corpsdepage-catalogue-1100 .container .cartes-sec2-1100 .carte1 a .titre {
+        grid-area: 3 / 1 / 3 / 4;
+        padding-left: 10px;
+        padding-right: 10px;
+        
+        
+    }
+    
+    .corpsdepage-catalogue-1100 .container .cartes-sec2-1100 .carte1 a hr {
+        opacity: 0.8;
+    }
+    
+    .corpsdepage-catalogue-1100 .container .cartes-sec2-1100 .carte1 a .tab {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+    }
+    
+    .corpsdepage-catalogue-1100 .container .cartes-sec2-1100 .carte1 a .info {
+        grid-area: 4 / 1 / 5 / 4;
+        padding: 2.5px 10px;
+        font-size: 14px; 
+    }
+
+    /*-- Cartes 2 --*/
+    
+    .corpsdepage-catalogue-1100 .container .cartes-sec2-1100 .carte2 a {
+        width: 300px;
+        height: 350px;
+        display: grid;
+        color: black;
+        grid-template: repeat(2, 150px) repeat(2, 25px) / repeat(3, 100px);
+        border-radius: 5px;
+        background-color: #eedff9;
+        
+        
+    }
+    
+    .corpsdepage-catalogue-1100 .container .cartes-sec2-1100 .carte2 a .divImg {
+        grid-area: 1/ 1 / 3 / 4;
+        background: url(slinky/IMG_0925.JPG);
+        background-size: cover;
+        background-position: 50% 50%;
+        filter: brightness(90%);
+        border-radius: 5px;
+        box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.5);
+    }
+    
+    .corpsdepage-catalogue-1100 .container .cartes-sec2-1100 .carte2 a .titre {
+        grid-area: 3 / 1 / 3 / 4;
+        padding-left: 10px;
+        padding-right: 10px;
+        
+        
+    }
+    
+    .corpsdepage-catalogue-1100 .container .cartes-sec2-1100 .carte2 a hr {
+        opacity: 0.8;
+    }
+    
+    .corpsdepage-catalogue-1100 .container .cartes-sec2-1100 .carte2 a .tab {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+    }
+    
+    .corpsdepage-catalogue-1100 .container .cartes-sec2-1100 .carte2 a .info {
+        grid-area: 4 / 1 / 5 / 4;
+        padding: 2.5px 10px;
+        font-size: 14px; 
+    }
+
+/*-- Cartes 1 / sections 3-1100 --*/
+
+.corpsdepage-catalogue-1100 .container .cartes-sec3-1100 .carte1 {
+    margin-right: 3%;
+}
+
+.corpsdepage-catalogue-1100 .container .cartes-sec3-1100 .carte1 a {
+    width: 300px;
+    height: 350px;
+    display: grid;
+    color: black;
+    grid-template: repeat(2, 150px) repeat(2, 25px) / repeat(3, 100px);
+    border-radius: 5px;
+    background-color: #eedff9;
+    
+    
+}
+
+.corpsdepage-catalogue-1100 .container .cartes-sec3-1100 .carte1 a .divImg {
+    grid-area: 1/ 1 / 3 / 4;
+    background: url(infinitecube/IMG_0929.JPG);
+    background-size: cover;
+    background-position: 50% 50%;
+    filter: brightness(90%);
+    border-radius: 5px;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.5);
+}
+
+.corpsdepage-catalogue-1100 .container .cartes-sec3-1100 .carte1 a .titre {
+    grid-area: 3 / 1 / 3 / 4;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    
+}
+
+.corpsdepage-catalogue-1100 .container .cartes-sec3-1100 .carte1 a hr {
+    opacity: 0.8;
+}
+
+.corpsdepage-catalogue-1100 .container .cartes-sec3-1100 .carte1 a .tab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.corpsdepage-catalogue-1100 .container .cartes-sec3-1100 .carte1 a .info {
+    grid-area: 4 / 1 / 5 / 4;
+    padding: 2.5px 10px;
+    font-size: 14px; 
+}
+
+/*-- Cartes 2 --*/
+
+.corpsdepage-catalogue-1100 .container .cartes-sec3-1100 .carte2 a {
+    width: 300px;
+    height: 350px;
+    display: grid;
+    color: black;
+    grid-template: repeat(2, 150px) repeat(2, 25px) / repeat(3, 100px);
+    border-radius: 5px;
+    background-color: #eedff9;
+    
+    
+}
+
+.corpsdepage-catalogue-1100 .container .cartes-sec3-1100 .carte2 a .divImg {
+    grid-area: 1/ 1 / 3 / 4;
+    background: url(pelleteuse/IMG_0938.JPG);
+    background-size: cover;
+    background-position: 50% 50%;
+    filter: brightness(90%);
+    border-radius: 5px;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.5);
+}
+
+.corpsdepage-catalogue-1100 .container .cartes-sec3-1100 .carte2 a .titre {
+    grid-area: 3 / 1 / 3 / 4;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    
+}
+
+.corpsdepage-catalogue-1100 .container .cartes-sec3-1100 .carte2 a hr {
+    opacity: 0.8;
+}
+
+.corpsdepage-catalogue-1100 .container .cartes-sec3-1100 .carte2 a .tab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.corpsdepage-catalogue-1100 .container .cartes-sec3-1100 .carte2 a .info {
+    grid-area: 4 / 1 / 5 / 4;
+    padding: 2.5px 10px;
+    font-size: 14px; 
+}
+
+/*-- Cartes 1 / sections 4-1100 --*/
+
+.corpsdepage-catalogue-1100 .container .cartes-sec4-1100 .carte1 {
+    margin-right: 3%;
+}
+
+.corpsdepage-catalogue-1100 .container .cartes-sec4-1100 .carte1 a {
+    width: 300px;
+    height: 350px;
+    display: grid;
+    color: black;
+    grid-template: repeat(2, 150px) repeat(2, 25px) / repeat(3, 100px);
+    border-radius: 5px;
+    background-color: #eedff9;
+    
+    
+}
+
+.corpsdepage-catalogue-1100 .container .cartes-sec4-1100 .carte1 a .divImg {
+    grid-area: 1/ 1 / 3 / 4;
+    background: url(camion/IMG_0942.JPG);
+    background-size: cover;
+    background-position: 50% 50%;
+    filter: brightness(90%);
+    border-radius: 5px;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.5);
+}
+
+.corpsdepage-catalogue-1100 .container .cartes-sec4-1100 .carte1 a .titre {
+    grid-area: 3 / 1 / 3 / 4;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    
+}
+
+.corpsdepage-catalogue-1100 .container .cartes-sec4-1100 .carte1 a hr {
+    opacity: 0.8;
+}
+
+.corpsdepage-catalogue-1100 .container .cartes-sec4-1100 .carte1 a .tab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.corpsdepage-catalogue-1100 .container .cartes-sec4-1100 .carte1 a .info {
+    grid-area: 4 / 1 / 5 / 4;
+    padding: 2.5px 10px;
+    font-size: 14px; 
+}
+
+/*-- Cartes 2 --*/
+
+.corpsdepage-catalogue-1100 .container .cartes-sec4-1100 .carte2 a {
+    width: 300px;
+    height: 350px;
+    display: grid;
+    color: black;
+    grid-template: repeat(2, 150px) repeat(2, 25px) / repeat(3, 100px);
+    border-radius: 5px;
+    background-color: #eedff9;
+    
+    
+}
+
+.corpsdepage-catalogue-1100 .container .cartes-sec4-1100 .carte2 a .divImg {
+    grid-area: 1/ 1 / 3 / 4;
+    background: url(chargeuse/IMG_0945.JPG);
+    background-size: cover;
+    background-position: 50% 50%;
+    filter: brightness(90%);
+    border-radius: 5px;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.5);
+}
+
+.corpsdepage-catalogue-1100 .container .cartes-sec4-1100 .carte2 a .titre {
+    grid-area: 3 / 1 / 3 / 4;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    
+}
+
+.corpsdepage-catalogue-1100 .container .cartes-sec4-1100 .carte2 a hr {
+    opacity: 0.8;
+}
+
+.corpsdepage-catalogue-1100 .container .cartes-sec4-1100 .carte2 a .tab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.corpsdepage-catalogue-1100 .container .cartes-sec4-1100 .carte2 a .info {
+    grid-area: 4 / 1 / 5 / 4;
+    padding: 2.5px 10px;
+    font-size: 14px; 
+}
+
+/*-- Cartes 1 / sections 4-1100 --*/
+
+.corpsdepage-catalogue-1100 .container .cartes-sec5-1100 .carte1 {
+    margin-right: 3%;
+}
+
+.corpsdepage-catalogue-1100 .container .cartes-sec5-1100 .carte1 a {
+    width: 300px;
+    height: 350px;
+    display: grid;
+    color: black;
+    grid-template: repeat(2, 150px) repeat(2, 25px) / repeat(3, 100px);
+    border-radius: 5px;
+    background-color: #eedff9;
+    
+    
+}
+
+.corpsdepage-catalogue-1100 .container .cartes-sec5-1100 .carte1 a .divImg {
+    grid-area: 1/ 1 / 3 / 4;
+    background: url(chariotelevateur/IMG_0950.JPG);
+    background-size: cover;
+    background-position: 50% 50%;
+    filter: brightness(90%);
+    border-radius: 5px;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.5);
+}
+
+.corpsdepage-catalogue-1100 .container .cartes-sec5-1100 .carte1 a .titre {
+    grid-area: 3 / 1 / 3 / 4;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    
+}
+
+.corpsdepage-catalogue-1100 .container .cartes-sec5-1100 .carte1 a hr {
+    opacity: 0.8;
+}
+
+.corpsdepage-catalogue-1100 .container .cartes-sec5-1100 .carte1 a .tab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.corpsdepage-catalogue-1100 .container .cartes-sec5-1100 .carte1 a .info {
+    grid-area: 4 / 1 / 5 / 4;
+    padding: 2.5px 10px;
+    font-size: 14px; 
+}
+
+/*-- Cartes 2 --*/
+
+.corpsdepage-catalogue-1100 .container .cartes-sec5-1100 .carte2 a {
+    width: 300px;
+    height: 350px;
+    display: grid;
+    color: black;
+    grid-template: repeat(2, 150px) repeat(2, 25px) / repeat(3, 100px);
+    border-radius: 5px;
+    background-color: #eedff9;
+    
+    
+}
+
+.corpsdepage-catalogue-1100 .container .cartes-sec5-1100 .carte2 a .divImg {
+    grid-area: 1/ 1 / 3 / 4;
+    background: url(rouleaucompresseur/IMG_0948.JPG);
+    background-size: cover;
+    background-position: 50% 50%;
+    filter: brightness(90%);
+    border-radius: 5px;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.5);
+}
+
+.corpsdepage-catalogue-1100 .container .cartes-sec5-1100 .carte2 a .titre {
+    grid-area: 3 / 1 / 3 / 4;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    
+}
+
+.corpsdepage-catalogue-1100 .container .cartes-sec5-1100 .carte2 a hr {
+    opacity: 0.8;
+}
+
+.corpsdepage-catalogue-1100 .container .cartes-sec5-1100 .carte2 a .tab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.corpsdepage-catalogue-1100 .container .cartes-sec5-1100 .carte2 a .info {
+    grid-area: 4 / 1 / 5 / 4;
+    padding: 2.5px 10px;
+    font-size: 14px; 
+}
+
+}
+
+/*-- Responsive page avion sur support --*/
+
+@media screen and (max-width: 1300px) {
+
+    .corpsdepage-avion-support .container {
+        max-width: 90%;
+
+    }
+
+    .corpsdepage-avion-support .container .divimg {
+        
+        max-width: 30%;
+        max-height: 60%;
+        background-position: 50% 50%;
+    }
+
+    .corpsdepage-avion-support .container .infosprod {
+        
+        max-width: 30%;
+        font-size: 0.95em;
+        max-height: 60%;
+    }
+
+    .corpsdepage-avion-support .container .boutonchange {
+        
+        max-height: 60%;
+    }
+
+/*-- Responsive page dragon articulé --*/
+    
+.corpsdepage-dragon-articulé .container {
+    max-width: 90%;
+
+}
+
+.corpsdepage-dragon-articulé .container .divimg {
+    
+    max-width: 30%;
+    max-height: 60%;
+    background-position: 50% 50%;
+}
+
+.corpsdepage-dragon-articulé .container .infosprod {
+    
+    max-width: 30%;
+    font-size: 0.95em;
+    max-height: 60%;
+}
+
+.corpsdepage-dragon-articulé .container .boutonchange {
+    
+    max-height: 60%;
+}
+
+/*-- Responsive page fidget star --*/
+    
+.corpsdepage-fidget-star .container {
+    max-width: 90%;
+
+}
+
+.corpsdepage-fidget-star .container .divimg {
+    
+    max-width: 30%;
+    max-height: 60%;
+    background-position: 50% 50%;
+}
+
+.corpsdepage-fidget-star .container .infosprod {
+    
+    max-width: 30%;
+    font-size: 0.95em;
+    max-height: 60%;
+}
+
+.corpsdepage-fidget-star .container .boutonchange {
+    
+    max-height: 60%;
+}
+
+/*-- Responsive page slinky --*/
+    
+.corpsdepage-slinky .container {
+    max-width: 90%;
+
+}
+
+.corpsdepage-slinky .container .divimg {
+    
+    max-width: 30%;
+    max-height: 60%;
+    background-position: 50% 50%;
+}
+
+.corpsdepage-slinky .container .infosprod {
+    
+    max-width: 30%;
+    font-size: 0.95em;
+    max-height: 60%;
+}
+
+.corpsdepage-slinky .container .boutonchange {
+    
+    max-height: 60%;
+}
+
+/*-- Responsive page infinite cube --*/
+    
+.corpsdepage-infinite-cube .container {
+    max-width: 90%;
+
+}
+
+.corpsdepage-infinite-cube .container .divimg {
+    
+    max-width: 30%;
+    max-height: 60%;
+    background-position: 50% 50%;
+}
+
+.corpsdepage-infinite-cube .container .infosprod {
+    
+    max-width: 30%;
+    font-size: 0.95em;
+    max-height: 60%;
+}
+
+.corpsdepage-infinite-cube .container .boutonchange {
+    
+    max-height: 60%;
+}
+
+/*-- Responsive page pelleteuse --*/
+    
+.corpsdepage-pelleteuse .container {
+    max-width: 90%;
+
+}
+
+.corpsdepage-pelleteuse .container .divimg {
+    
+    max-width: 30%;
+    max-height: 60%;
+    background-position: 50% 50%;
+}
+
+.corpsdepage-pelleteuse .container .infosprod {
+    
+    max-width: 30%;
+    font-size: 0.95em;
+    max-height: 60%;
+}
+
+.corpsdepage-pelleteuse .container .boutonchange {
+    
+    max-height: 60%;
+}
+
+/*-- Responsive page camion --*/
+    
+.corpsdepage-camion .container {
+    max-width: 90%;
+
+}
+
+.corpsdepage-camion .container .divimg {
+    
+    max-width: 30%;
+    max-height: 60%;
+    background-position: 50% 50%;
+}
+
+.corpsdepage-camion .container .infosprod {
+    
+    max-width: 30%;
+    font-size: 0.95em;
+    max-height: 60%;
+}
+
+.corpsdepage-camion .container .boutonchange {
+    
+    max-height: 60%;
+}
+
+/*-- Responsive page chargeuse sur pneu --*/
+    
+.corpsdepage-charseuse-sur-pneu .container {
+    max-width: 90%;
+
+}
+
+.corpsdepage-charseuse-sur-pneu .container .divimg {
+    
+    max-width: 30%;
+    max-height: 60%;
+    background-position: 50% 50%;
+}
+
+.corpsdepage-charseuse-sur-pneu .container .infosprod {
+    
+    max-width: 30%;
+    font-size: 0.95em;
+    max-height: 60%;
+}
+
+.corpsdepage-charseuse-sur-pneu .container .boutonchange {
+    
+    max-height: 60%;
+}
+
+/*-- Responsive page chariot élévateur --*/
+    
+.corpsdepage-chariot-elevateur .container {
+    max-width: 90%;
+
+}
+
+.corpsdepage-chariot-elevateur .container .divimg {
+    
+    max-width: 30%;
+    max-height: 60%;
+    background-position: 50% 50%;
+}
+
+.corpsdepage-chariot-elevateur .container .infosprod {
+    
+    max-width: 30%;
+    font-size: 0.95em;
+    max-height: 60%;
+}
+
+.corpsdepage-chariot-elevateur .container .boutonchange {
+    max-height: 60%;
+}
+
+/*-- Responsive page rouleau compresseur --*/
+    
+.corpsdepage-rouleau-compresseur .container {
+    max-width: 90%;
+
+}
+
+.corpsdepage-rouleau-compresseur .container .divimg {
+    
+    max-width: 30%;
+    max-height: 60%;
+    background-position: 50% 50%;
+}
+
+.corpsdepage-rouleau-compresseur .container .infosprod {
+    
+    max-width: 30%;
+    font-size: 0.95em;
+    max-height: 60%;
+}
+
+.corpsdepage-rouleau-compresseur .container .boutonchange {
+    max-height: 60%;
+}
+
+}
+
+
+
+
+@media screen and (max-width: 900px) {
+
+    
+
+    .navbar .container {
+        height: 50px;
+    }
+    .navbar .container .logo {
+        height: 50px;
+    }
+
+    .navbar .container .nav-linksleft {
+        display: none;
+    }
+    
+    .navbar .container .nav-linksright {
+        display: none;
+    }
+
+    .corpsdepage {
+        height: 709.6px;
+        padding-top: 75px;
+    }
+
+    .corpsdepage .container {
+        height: 709.6px;
+    }
+
+    .corpsdepage .container {
+        height: 704,8px;
+        border-top-width: 1.57px;
+        border-left-width: 0.5px;
+        border-right-width: 0.5px;
+        justify-content: center;
+        
+    }
+
+    .corpsdepage-catalogue-1100 {
+        height: 950px;
+        padding-top: 75px;
+    }
+
+    .corpsdepage-catalogue-1100 .container {
+        height: 950px;
+        border-top-width: 1.57px;
+        border-left-width: 0.5px;
+        border-right-width: 0.5px;
+        justify-content: center;
+        
+    }
+
+    .corpsdepage .container .impr3d {
+        justify-content: center;
+        height: 352.4px;
+        
+    }
+
+    .corpsdepage .container .impr3d h1 {
+        margin-top: 0px;
+    }
+
+    .corpsdepage .container .impr3d a {
+        height: 40px;
+        width: 200px;
+    }
+
+    .corpsdepage .container .infos {
+        justify-content: center;
+        height: 352.4px;
+    }
+
+    .corpsdepage .container .infos .infosleft {
+        display: flex;
+        flex-direction: column;
+        margin-right: 0px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .corpsdepage .container .infos .infosleft ul {
+        display: none;
+    }
+
+    .corpsdepage .container .infos .infosleft a {
+        margin-top: 2%;
+        height: 40px;
+        width: 200px;
+    }
+
+    .corpsdepage .container .infos .infosright {
+        display: none;
+    }
+    
+
+    .navbar {
+        padding: 0;
+        
+    }
+
+    .navbar .container {
+        height: 75px;
+    }
+
+    .navbar a {
+        color: antiquewhite;
+    }
+
+    .navbar .logo {
+        position: static;
+    }
+
+    
+    .nav-links .nav-linksright {
+        position: static;
+        width: 300px;
+        color: antiquewhite;
+    }
+
+    .navbar .logo img {
+        position: absolute;
+        top: 0px;
+        left: 30px;
+        width: 75px;
+        height: 75px;
+    }
+
+    .navbar .menu-hamburger {
+        display: block;
+        z-index: 1000;
+    }
+
+
+    .nav-links {
+        top: 0;
+        left: 0;
+        position: absolute;
+        background-color: rgb(0, 0, 0);
+        backdrop-filter: blur(7px);
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: -100%;
+        transition: all 0.5s ease;
+        z-index: 1000;
+    }
+
+    
+
+    .nav-links.mobile-menu {
+        margin-left: 0;
+        overflow: hidden;
+    }
+
+    .navbar .nav-links .nav-linksleft {
+        padding-top: 0px;
+        display: block;
+        position: static;
+        width: 300px;
+    }
+
+    .navbar .nav-links .nav-linksleft ul {
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .navbar .nav-links .nav-linksleft ul li {
+        margin: 25px 0;
+        font-size: 1.2em;
+    }
+/*--Menu indépendant (s'applique à toutes les pages)--*/
+
+
+
+.navbar .nav-links .nav-linksright {
+    padding-top: 0px;
+    display: block;
+    position: static;
+}
+
+.navbar .nav-links .nav-linksright ul {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navbar .nav-links .nav-linksright ul li {
+    margin: 25px 0;
+    font-size: 1.2em;
+}
+
+/*-- Cartes 1 / sections 1-900 --*/
+
+.corpsdepage-catalogue-1100 .container .cartes-sec1-1100 .carte1 {
+    margin-right: 3%;
+}
+
+.corpsdepage-catalogue-1100 .container .cartes-sec1-1100 .carte1 a {
+    width: 150px;
+    height: 170px;
+    display: grid;
+    color: black;
+    font-size: small;
+    grid-template: repeat(2, 70px) repeat(2, 15px) / repeat(3, 50px);
+    border-radius: 5px;
+    background-color: #eedff9;
+    
+    
+}
+
+.corpsdepage-catalogue-1100 .container .cartes-sec1-1100 .carte1 a .divImg{
+    grid-area: 1/ 1 / 3 / 4;
+    background: url(avion/IMG_0927.JPG);
+    background-size: cover;
+    background-position: 50% 50%;
+    filter: brightness(90%);
+    border-radius: 5px;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.5);
+}
+
+.corpsdepage-catalogue-1100 .container .cartes-sec1-1100 .carte1 a .titre {
+    grid-area: 3 / 1 / 3 / 4;
+    padding-left: 5px;
+    padding-right: 5px;
+    
+    
+}
+
+.corpsdepage-catalogue-1100 .container .cartes-sec1-1100 .carte1 a hr {
+    display: none;
+}
+
+.corpsdepage-catalogue-1100 .container .cartes-sec1-1100 .carte1 a .tab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.corpsdepage-catalogue-1100 .container .cartes-sec1-1100 .carte1 a .info {
+    grid-area: 4 / 1 / 5 / 4;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 0;
+    padding-bottom: 0;
+    font-size: small;
+}
+
+/*-- Cartes 2 --*/
+
+.corpsdepage-catalogue-1100 .container .cartes-sec1-1100 .carte2 a {
+    width: 150px;
+    height: 170px;
+    display: grid;
+    color: black;
+    font-size: small;
+    grid-template: repeat(2, 70px) repeat(2, 15px) / repeat(3, 50px);
+    border-radius: 5px;
+    background-color: #eedff9;
+    
+    
+}
+
+.corpsdepage-catalogue-1100 .container .cartes-sec1-1100 .carte2 a .divImg {
+    grid-area: 1/ 1 / 3 / 4;
+    background: url(dragon/IMG_0931.JPG);
+    background-size: cover;
+    background-position: 50% 50%;
+    filter: brightness(90%);
+    border-radius: 5px;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.5);
+}
+
+.corpsdepage-catalogue-1100 .container .cartes-sec1-1100 .carte2 a .titre {
+    grid-area: 3 / 1 / 3 / 4;
+    padding-left: 5px;
+    padding-right: 5px;
+    
+    
+}
+
+.corpsdepage-catalogue-1100 .container .cartes-sec1-1100 .carte2 a hr {
+    display: none;
+}
+
+.corpsdepage-catalogue-1100 .container .cartes-sec1-1100 .carte2 a .tab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.corpsdepage-catalogue-1100 .container .cartes-sec1-1100 .carte2 a .info {
+    grid-area: 4 / 1 / 5 / 4;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 0;
+    padding-bottom: 0;
+    font-size: small;
+}
+
+/*-- Cartes 1 / sections 2-900 --*/
+
+.corpsdepage-catalogue-1100 .container .cartes-sec2-1100 .carte1 {
+    margin-right: 3%;
+}
+
+.corpsdepage-catalogue-1100 .container .cartes-sec2-1100 .carte1 a {
+    width: 150px;
+    height: 170px;
+    display: grid;
+    color: black;
+    font-size: small;
+    grid-template: repeat(2, 70px) repeat(2, 15px) / repeat(3, 50px);
+    border-radius: 5px;
+    background-color: #eedff9;
+    
+    
+}
+
+.corpsdepage-catalogue-1100 .container .cartes-sec2-1100 .carte1 a .divImg {
+    grid-area: 1/ 1 / 3 / 4;
+    background: url(fidgetstar/IMG_0935.JPG);
+    background-size: cover;
+    background-position: 50% 50%;
+    filter: brightness(90%);
+    border-radius: 5px;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.5);
+}
+
+.corpsdepage-catalogue-1100 .container .cartes-sec2-1100 .carte1 a .titre {
+    grid-area: 3 / 1 / 3 / 4;
+    padding-left: 5px;
+    padding-right: 5px;
+    
+    
+}
+
+.corpsdepage-catalogue-1100 .container .cartes-sec2-1100 .carte1 a hr {
+    display: none;
+}
+
+.corpsdepage-catalogue-1100 .container .cartes-sec2-1100 .carte1 a .tab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.corpsdepage-catalogue-1100 .container .cartes-sec2-1100 .carte1 a .info {
+    grid-area: 4 / 1 / 5 / 4;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 0;
+    padding-bottom: 0;
+    font-size: small;
+}
+
+/*-- Cartes 2 --*/
+
+.corpsdepage-catalogue-1100 .container .cartes-sec2-1100 .carte2 a {
+    width: 150px;
+    height: 170px;
+    display: grid;
+    color: black;
+    font-size: small;
+    grid-template: repeat(2, 70px) repeat(2, 15px) / repeat(3, 50px);
+    border-radius: 5px;
+    background-color: #eedff9;
+    
+    
+}
+
+.corpsdepage-catalogue-1100 .container .cartes-sec2-1100 .carte2 a .divImg {
+    grid-area: 1/ 1 / 3 / 4;
+    background: url(slinky/IMG_0925.JPG);
+    background-size: cover;
+    background-position: 50% 50%;
+    filter: brightness(90%);
+    border-radius: 5px;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.5);
+}
+
+.corpsdepage-catalogue-1100 .container .cartes-sec2-1100 .carte2 a .titre {
+    grid-area: 3 / 1 / 3 / 4;
+    padding-left: 5px;
+    padding-right: 5px;
+    
+    
+}
+
+.corpsdepage-catalogue-1100 .container .cartes-sec2-1100 .carte2 a hr {
+    display: none;
+}
+
+.corpsdepage-catalogue-1100 .container .cartes-sec2-1100 .carte2 a .tab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.corpsdepage-catalogue-1100 .container .cartes-sec2-1100 .carte2 a .info {
+    grid-area: 4 / 1 / 5 / 4;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 0;
+    padding-bottom: 0;
+    font-size: small;
+}
+
+/*-- Cartes 1 / sections 3-900 --*/
+
+.corpsdepage-catalogue-1100 .container .cartes-sec3-1100 .carte1 {
+    margin-right: 3%;
+}
+
+.corpsdepage-catalogue-1100 .container .cartes-sec3-1100 .carte1 a {
+    width: 150px;
+    height: 170px;
+    display: grid;
+    color: black;
+    font-size: small;
+    grid-template: repeat(2, 70px) repeat(2, 15px) / repeat(3, 50px);
+    border-radius: 5px;
+    background-color: #eedff9;
+    
+    
+}
+
+.corpsdepage-catalogue-1100 .container .cartes-sec3-1100 .carte1 a .divImg {
+    grid-area: 1/ 1 / 3 / 4;
+    background: url(infinitecube/IMG_0929.JPG);
+    background-size: cover;
+    background-position: 50% 50%;
+    filter: brightness(90%);
+    border-radius: 5px;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.5);
+}
+
+.corpsdepage-catalogue-1100 .container .cartes-sec3-1100 .carte1 a .titre {
+    grid-area: 3 / 1 / 3 / 4;
+    padding-left: 5px;
+    padding-right: 5px;
+    
+    
+}
+
+.corpsdepage-catalogue-1100 .container .cartes-sec3-1100 .carte1 a hr {
+    display: none;
+}
+
+.corpsdepage-catalogue-1100 .container .cartes-sec3-1100 .carte1 a .tab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.corpsdepage-catalogue-1100 .container .cartes-sec3-1100 .carte1 a .info {
+    grid-area: 4 / 1 / 5 / 4;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 0;
+    padding-bottom: 0;
+    font-size: small;
+}
+
+/*-- Cartes 2 --*/
+
+.corpsdepage-catalogue-1100 .container .cartes-sec3-1100 .carte2 a {
+    width: 150px;
+    height: 170px;
+    display: grid;
+    color: black;
+    font-size: small;
+    grid-template: repeat(2, 70px) repeat(2, 15px) / repeat(3, 50px);
+    border-radius: 5px;
+    background-color: #eedff9;
+    
+    
+}
+
+.corpsdepage-catalogue-1100 .container .cartes-sec3-1100 .carte2 a .divImg {
+    grid-area: 1/ 1 / 3 / 4;
+    background: url(pelleteuse/IMG_0938.JPG);
+    background-size: cover;
+    background-position: 50% 50%;
+    filter: brightness(90%);
+    border-radius: 5px;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.5);
+}
+
+.corpsdepage-catalogue-1100 .container .cartes-sec3-1100 .carte2 a .titre {
+    grid-area: 3 / 1 / 3 / 4;
+    padding-left: 5px;
+    padding-right: 5px;
+    
+    
+}
+
+.corpsdepage-catalogue-1100 .container .cartes-sec3-1100 .carte2 a hr {
+    display: none;
+}
+
+.corpsdepage-catalogue-1100 .container .cartes-sec3-1100 .carte2 a .tab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.corpsdepage-catalogue-1100 .container .cartes-sec3-1100 .carte2 a .info {
+    grid-area: 4 / 1 / 5 / 4;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 0;
+    padding-bottom: 0;
+    font-size: small;
+}
+
+/*-- Cartes 1 / sections 4-900 --*/
+
+.corpsdepage-catalogue-1100 .container .cartes-sec4-1100 .carte1 {
+    margin-right: 3%;
+}
+
+.corpsdepage-catalogue-1100 .container .cartes-sec4-1100 .carte1 a {
+    width: 150px;
+    height: 170px;
+    display: grid;
+    color: black;
+    font-size: small;
+    grid-template: repeat(2, 70px) repeat(2, 15px) / repeat(3, 50px);
+    border-radius: 5px;
+    background-color: #eedff9;
+    
+    
+}
+
+.corpsdepage-catalogue-1100 .container .cartes-sec4-1100 .carte1 a .divImg {
+    grid-area: 1/ 1 / 3 / 4;
+    background: url(camion/IMG_0942.JPG);
+    background-size: cover;
+    background-position: 50% 50%;
+    filter: brightness(90%);
+    border-radius: 5px;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.5);
+}
+
+.corpsdepage-catalogue-1100 .container .cartes-sec4-1100 .carte1 a .titre {
+    grid-area: 3 / 1 / 3 / 4;
+    padding-left: 5px;
+    padding-right: 5px;
+    
+    
+}
+
+.corpsdepage-catalogue-1100 .container .cartes-sec4-1100 .carte1 a hr {
+    display: none;
+}
+
+.corpsdepage-catalogue-1100 .container .cartes-sec4-1100 .carte1 a .tab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.corpsdepage-catalogue-1100 .container .cartes-sec4-1100 .carte1 a .info {
+    grid-area: 4 / 1 / 5 / 4;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 0;
+    padding-bottom: 0;
+    font-size: small;
+}
+
+/*-- Cartes 2 --*/
+
+.corpsdepage-catalogue-1100 .container .cartes-sec4-1100 .carte2 a {
+    width: 150px;
+    height: 170px;
+    display: grid;
+    color: black;
+    font-size: small;
+    grid-template: repeat(2, 70px) repeat(2, 15px) / repeat(3, 50px);
+    border-radius: 5px;
+    background-color: #eedff9;
+    
+    
+}
+
+.corpsdepage-catalogue-1100 .container .cartes-sec4-1100 .carte2 a .divImg {
+    grid-area: 1/ 1 / 3 / 4;
+    background: url(chargeuse/IMG_0945.JPG);
+    background-size: cover;
+    background-position: 50% 50%;
+    filter: brightness(90%);
+    border-radius: 5px;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.5);
+}
+
+.corpsdepage-catalogue-1100 .container .cartes-sec4-1100 .carte2 a .titre {
+    grid-area: 3 / 1 / 3 / 4;
+    padding-left: 5px;
+    padding-right: 5px;
+    
+    
+}
+
+.corpsdepage-catalogue-1100 .container .cartes-sec4-1100 .carte2 a hr {
+    display: none;
+}
+
+.corpsdepage-catalogue-1100 .container .cartes-sec4-1100 .carte2 a .tab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.corpsdepage-catalogue-1100 .container .cartes-sec4-1100 .carte2 a .info {
+    grid-area: 4 / 1 / 5 / 4;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 0;
+    padding-bottom: 0;
+    font-size: small;
+}
+
+/*-- Cartes 1 / sections 5-900 --*/
+
+.corpsdepage-catalogue-1100 .container .cartes-sec5-1100 .carte1 {
+    margin-right: 3%;
+}
+
+.corpsdepage-catalogue-1100 .container .cartes-sec5-1100 .carte1 a {
+    width: 150px;
+    height: 170px;
+    display: grid;
+    color: black;
+    font-size: small;
+    grid-template: repeat(2, 70px) repeat(2, 15px) / repeat(3, 50px);
+    border-radius: 5px;
+    background-color: #eedff9;
+    
+    
+}
+
+.corpsdepage-catalogue-1100 .container .cartes-sec5-1100 .carte1 a .divImg {
+    grid-area: 1/ 1 / 3 / 4;
+    background: url(chariotelevateur/IMG_0950.JPG);
+    background-size: cover;
+    background-position: 50% 50%;
+    filter: brightness(90%);
+    border-radius: 5px;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.5);
+}
+
+.corpsdepage-catalogue-1100 .container .cartes-sec5-1100 .carte1 a .titre {
+    grid-area: 3 / 1 / 3 / 4;
+    padding-left: 5px;
+    padding-right: 5px;
+    
+    
+}
+
+.corpsdepage-catalogue-1100 .container .cartes-sec5-1100 .carte1 a hr {
+    display: none;
+}
+
+.corpsdepage-catalogue-1100 .container .cartes-sec5-1100 .carte1 a .tab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.corpsdepage-catalogue-1100 .container .cartes-sec5-1100 .carte1 a .info {
+    grid-area: 4 / 1 / 5 / 4;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 0;
+    padding-bottom: 0;
+    font-size: small;
+}
+
+/*-- Cartes 2 --*/
+
+.corpsdepage-catalogue-1100 .container .cartes-sec5-1100 .carte2 a {
+    width: 150px;
+    height: 170px;
+    display: grid;
+    color: black;
+    font-size: small;
+    grid-template: repeat(2, 70px) repeat(2, 15px) / repeat(3, 50px);
+    border-radius: 5px;
+    background-color: #eedff9;
+    
+    
+}
+
+.corpsdepage-catalogue-1100 .container .cartes-sec5-1100 .carte2 a .divImg {
+    grid-area: 1/ 1 / 3 / 4;
+    background: url(rouleaucompresseur/IMG_0948.JPG);
+    background-size: cover;
+    background-position: 50% 50%;
+    filter: brightness(90%);
+    border-radius: 5px;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.5);
+}
+
+.corpsdepage-catalogue-1100 .container .cartes-sec5-1100 .carte2 a .titre {
+    grid-area: 3 / 1 / 3 / 4;
+    padding-left: 5px;
+    padding-right: 5px;
+    
+    
+}
+
+.corpsdepage-catalogue-1100 .container .cartes-sec5-1100 .carte2 a hr {
+    display: none;
+}
+
+.corpsdepage-catalogue-1100 .container .cartes-sec5-1100 .carte2 a .tab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.corpsdepage-catalogue-1100 .container .cartes-sec5-1100 .carte2 a .info {
+    grid-area: 4 / 1 / 5 / 4;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 0;
+    padding-bottom: 0;
+    font-size: small;
+}
+
+footer .container .contact {
+    display: none;
+}
+
+footer {
+    width: auto;
+    height: 395px;
+}
+
+footer .container {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    width: auto;
+    height: 395px;
+    padding: 0;
+}
+
+footer .container .contactresponsive {
+    display: block;
+    width: auto;
+    margin-top: 5%;
+    margin-right: 5%;
+    margin-left: 5%;
+    text-align: center;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    
+}
+
+footer .container .contactresponsive p {
+    margin-bottom: 14.05px;
+}
+
+footer .container .Store {
+
+    height: 237.05px;
+    width: auto;
+    
+    margin-right: 5%;
+    margin-left: 5%;
+    text-align: center;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+
+}
+
+/*-- Avion sur support --*/
+
+.corpsdepage-avion-support .container {
+    max-width: 90%;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 0px;
+    justify-content: start;
+    align-items: baseline;
+}
+
+.corpsdepage-avion-support .container :nth-child(1) { order: 3; }
+.corpsdepage-avion-support .container :nth-child(4) { order: 3; }
+
+.corpsdepage-avion-support .container .divimg {
+    margin-right: 0px;
+    max-width: 90%;
+    max-height: 60%;
+    background-position: 50% 50% 50% 50%;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    
+} 
+
+.corpsdepage-avion-support .container .boutonchange {
+    max-height: 60%;
+    flex-direction: row;
+   margin-left: auto;
+   margin-right: auto;
+   
+}
+
+.corpsdepage-avion-support .container .boutonchange .changeimg1{
+    margin-top: 0px;
+    background-position: 50% 50%
+}
+
+.corpsdepage-avion-support .container .boutonchange .changeimg2{
+    margin-top: 0px;
+    background-position: 50% 50%;
+}
+
+.corpsdepage-avion-support .container .boutonchange .changeimg3{
+    margin-top: 0px;
+    background-position: 50% 50%;
+}
+
+.corpsdepage-avion-support .container .prixresponsive {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 180px;
+    margin-left: auto;
+    margin-right: auto;box-shadow: 0px -10px 10px -10px rgb(0, 0, 0) inset;
+}
+ 
+
+.corpsdepage-avion-support .container .boutonchange .prixresponsive {
+    border-style: solid;
+    border-width: 1px;
+}
+
+.corpsdepage-avion-support .container .infosprod {
+    margin-top: 5%;
+    max-width: 90%;
+    margin-left: auto;
+   margin-right: auto;
+   text-align: justify;
+   font-size: 1.7vh;
+   margin-bottom: 5%;
+   
+}
+
+.corpsdepage-avion-support .container .boutonchange :nth-child(2) { order: 3; }
+
+.corpsdepage-avion-support .container .infosprod .prix {
+    display: none;
+}
+
+/*-- Dragon articulé --*/
+
+.corpsdepage-dragon-articulé .container {
+    max-width: 90%;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 0px;
+    justify-content: start;
+    align-items: baseline;
+}
+
+.corpsdepage-dragon-articulé .container :nth-child(1) { order: 3; }
+.corpsdepage-dragon-articulé .container :nth-child(4) { order: 3; }
+
+.corpsdepage-dragon-articulé .container .divimg {
+    margin-right: 0px;
+    max-width: 90%;
+    max-height: 60%;
+    background-position: 50% 50% 50% 50%;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    
+} 
+
+.corpsdepage-dragon-articulé .container .boutonchange {
+    max-height: 60%;
+    flex-direction: row;
+   margin-left: auto;
+   margin-right: auto;
+   
+}
+
+.corpsdepage-dragon-articulé .container .boutonchange .changedrimg1{
+    margin-top: 0px;
+    background-position: 50% 50%
+}
+
+.corpsdepage-dragon-articulé .container .boutonchange .changedrimg2{
+    margin-top: 0px;
+    background-position: 50% 50%;
+}
+
+.corpsdepage-dragon-articulé .container .boutonchange .changedrimg3{
+    margin-top: 0px;
+    background-position: 50% 50%;
+}
+
+.corpsdepage-dragon-articulé .container .prixresponsive {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 180px;
+    margin-left: auto;
+    margin-right: auto;box-shadow: 0px -10px 10px -10px rgb(0, 0, 0) inset;
+}
+ 
+
+.corpsdepage-dragon-articulé .container .boutonchange .prixresponsive {
+    border-style: solid;
+    border-width: 1px;
+}
+
+.corpsdepage-dragon-articulé .container .infosprod {
+    margin-top: 5%;
+    max-width: 90%;
+    margin-left: auto;
+   margin-right: auto;
+   text-align: justify;
+   font-size: 1.7vh;
+   margin-bottom: 5%;
+   
+}
+
+.corpsdepage-dragon-articulé .container .boutonchange :nth-child(2) { order: 3; }
+
+.corpsdepage-dragon-articulé .container .infosprod .prix {
+    display: none;
+}
+
+/*-- Fidget Star --*/
+
+.corpsdepage-fidget-star .container {
+    max-width: 90%;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 0px;
+    justify-content: start;
+    align-items: baseline;
+}
+
+.corpsdepage-fidget-star .container :nth-child(1) { order: 3; }
+.corpsdepage-fidget-star .container :nth-child(4) { order: 3; }
+
+.corpsdepage-fidget-star .container .divimg {
+    margin-right: 0px;
+    max-width: 90%;
+    max-height: 60%;
+    background-position: 50% 50% 50% 50%;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    
+} 
+
+.corpsdepage-fidget-star .container .boutonchange {
+    max-height: 60%;
+    flex-direction: row;
+   margin-left: auto;
+   margin-right: auto;
+   
+}
+
+.corpsdepage-fidget-star .container .boutonchange .changefsimg1{
+    margin-top: 0px;
+    background-position: 50% 50%
+}
+
+.corpsdepage-fidget-star .container .boutonchange .changefsimg2{
+    margin-top: 0px;
+    background-position: 50% 50%;
+}
+
+.corpsdepage-fidget-star .container .boutonchange .changefsimg3{
+    margin-top: 0px;
+    background-position: 50% 50%;
+}
+
+.corpsdepage-fidget-star .container .prixresponsive {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 180px;
+    margin-left: auto;
+    margin-right: auto;box-shadow: 0px -10px 10px -10px rgb(0, 0, 0) inset;
+}
+ 
+
+.corpsdepage-fidget-star .container .boutonchange .prixresponsive {
+    border-style: solid;
+    border-width: 1px;
+}
+
+.corpsdepage-fidget-star .container .infosprod {
+    margin-top: 5%;
+    max-width: 90%;
+    margin-left: auto;
+   margin-right: auto;
+   text-align: justify;
+   font-size: 1.7vh;
+   margin-bottom: 5%;
+   
+}
+
+.corpsdepage-fidget-star .container .boutonchange :nth-child(2) { order: 3; }
+
+.corpsdepage-fidget-star .container .infosprod .prix {
+    display: none;
+}
+
+/*-- Slinky --*/
+
+.corpsdepage-slinky .container {
+    max-width: 90%;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 0px;
+    justify-content: start;
+    align-items: baseline;
+}
+
+.corpsdepage-slinky .container :nth-child(1) { order: 3; }
+.corpsdepage-slinky .container :nth-child(4) { order: 3; }
+
+.corpsdepage-slinky .container .divimg {
+    margin-right: 0px;
+    max-width: 90%;
+    max-height: 60%;
+    background-position: 50% 50% 50% 50%;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    
+} 
+
+.corpsdepage-slinky .container .boutonchange {
+    max-height: 60%;
+    flex-direction: row;
+   margin-left: auto;
+   margin-right: auto;
+   
+}
+
+.corpsdepage-slinky .container .boutonchange .changeslimg1{
+    margin-top: 0px;
+    background-position: 50% 50%
+}
+
+.corpsdepage-slinky .container .boutonchange .changeslimg2{
+    margin-top: 0px;
+    background-position: 50% 50%;
+}
+
+.corpsdepage-slinky .container .boutonchange .changeslimg3{
+    margin-top: 0px;
+    background-position: 50% 50%;
+}
+
+.corpsdepage-slinky .container .prixresponsive {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 180px;
+    margin-left: auto;
+    margin-right: auto;box-shadow: 0px -10px 10px -10px rgb(0, 0, 0) inset;
+}
+ 
+
+.corpsdepage-slinky .container .boutonchange .prixresponsive {
+    border-style: solid;
+    border-width: 1px;
+}
+
+.corpsdepage-slinky .container .infosprod {
+    margin-top: 5%;
+    max-width: 90%;
+    margin-left: auto;
+   margin-right: auto;
+   text-align: justify;
+   font-size: 1.7vh;
+   margin-bottom: 5%;
+   
+}
+
+.corpsdepage-slinky .container .boutonchange :nth-child(2) { order: 3; }
+
+.corpsdepage-slinky .container .infosprod .prix {
+    display: none;
+}
+
+/*-- Infinite cube --*/
+
+.corpsdepage-infinite-cube .container {
+    max-width: 90%;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 0px;
+    justify-content: start;
+    align-items: baseline;
+}
+
+.corpsdepage-infinite-cube .container :nth-child(1) { order: 3; }
+.corpsdepage-infinite-cube .container :nth-child(4) { order: 3; }
+
+.corpsdepage-infinite-cube .container .divimg {
+    margin-right: 0px;
+    max-width: 90%;
+    max-height: 60%;
+    background-position: 50% 50% 50% 50%;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    
+} 
+
+.corpsdepage-infinite-cube .container .boutonchange {
+    max-height: 60%;
+    flex-direction: row;
+   margin-left: auto;
+   margin-right: auto;
+   
+}
+
+.corpsdepage-infinite-cube .container .boutonchange .changesinmg1{
+    margin-top: 0px;
+    background-position: 50% 50%
+}
+
+.corpsdepage-infinite-cube .container .boutonchange .changesinmg2{
+    margin-top: 0px;
+    background-position: 50% 50%;
+}
+
+.corpsdepage-infinite-cube .container .boutonchange .changesinmg3{
+    margin-top: 0px;
+    background-position: 50% 50%;
+}
+
+.corpsdepage-infinite-cube .container .prixresponsive {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 180px;
+    margin-left: auto;
+    margin-right: auto;box-shadow: 0px -10px 10px -10px rgb(0, 0, 0) inset;
+}
+ 
+
+.corpsdepage-infinite-cube .container .boutonchange .prixresponsive {
+    border-style: solid;
+    border-width: 1px;
+}
+
+.corpsdepage-infinite-cube .container .infosprod {
+    margin-top: 5%;
+    max-width: 90%;
+    margin-left: auto;
+   margin-right: auto;
+   text-align: justify;
+   font-size: 1.7vh;
+   margin-bottom: 5%;
+   
+}
+
+.corpsdepage-infinite-cube .container .boutonchange :nth-child(2) { order: 3; }
+
+.corpsdepage-infinite-cube .container .infosprod .prix {
+    display: none;
+}
+
+/*-- Pelleteuse --*/
+
+.corpsdepage-pelleteuse .container {
+    max-width: 90%;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 0px;
+    justify-content: start;
+    align-items: baseline;
+}
+
+.corpsdepage-pelleteuse .container :nth-child(1) { order: 3; }
+.corpsdepage-pelleteuse .container :nth-child(4) { order: 3; }
+
+.corpsdepage-pelleteuse .container .divimg {
+    margin-right: 0px;
+    max-width: 90%;
+    max-height: 60%;
+    background-position: 50% 50% 50% 50%;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    
+} 
+
+.corpsdepage-pelleteuse .container .boutonchange {
+    max-height: 60%;
+    flex-direction: row;
+   margin-left: auto;
+   margin-right: auto;
+   
+}
+
+.corpsdepage-pelleteuse .container .boutonchange .changeplimg1{
+    margin-top: 0px;
+    background-position: 50% 50%
+}
+
+.corpsdepage-pelleteuse .container .boutonchange .changeplimg2{
+    margin-top: 0px;
+    background-position: 50% 50%;
+}
+
+.corpsdepage-pelleteuse .container .boutonchange .changeplimg3{
+    margin-top: 0px;
+    background-position: 50% 50%;
+}
+
+.corpsdepage-pelleteuse .container .prixresponsive {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 180px;
+    margin-left: auto;
+    margin-right: auto;box-shadow: 0px -10px 10px -10px rgb(0, 0, 0) inset;
+}
+ 
+
+.corpsdepage-pelleteuse .container .boutonchange .prixresponsive {
+    border-style: solid;
+    border-width: 1px;
+}
+
+.corpsdepage-pelleteuse .container .infosprod {
+    margin-top: 5%;
+    max-width: 90%;
+    margin-left: auto;
+   margin-right: auto;
+   text-align: justify;
+   font-size: 1.7vh;
+   margin-bottom: 5%;
+   
+}
+
+.corpsdepage-pelleteuse .container .boutonchange :nth-child(2) { order: 3; }
+
+.corpsdepage-pelleteuse .container .infosprod .prix {
+    display: none;
+}
+
+/*-- Camion --*/
+
+.corpsdepage-camion .container {
+    max-width: 90%;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 0px;
+    justify-content: start;
+    align-items: baseline;
+}
+
+.corpsdepage-camion .container :nth-child(1) { order: 3; }
+.corpsdepage-camion .container :nth-child(4) { order: 3; }
+
+.corpsdepage-camion .container .divimg {
+    margin-right: 0px;
+    max-width: 90%;
+    max-height: 60%;
+    background-position: 50% 50% 50% 50%;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    
+} 
+
+.corpsdepage-camion .container .boutonchange {
+    max-height: 60%;
+    flex-direction: row;
+   margin-left: auto;
+   margin-right: auto;
+   
+}
+
+.corpsdepage-camion .container .boutonchange .changecaimg1{
+    margin-top: 0px;
+    background-position: 50% 50%
+}
+
+.corpsdepage-camion .container .boutonchange .changecaimg2{
+    margin-top: 0px;
+    background-position: 50% 50%;
+}
+
+.corpsdepage-camion .container .boutonchange .changecaimg3{
+    margin-top: 0px;
+    background-position: 50% 50%;
+}
+
+.corpsdepage-camion .container .prixresponsive {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 180px;
+    margin-left: auto;
+    margin-right: auto;box-shadow: 0px -10px 10px -10px rgb(0, 0, 0) inset;
+}
+ 
+
+.corpsdepage-camion .container .boutonchange .prixresponsive {
+    border-style: solid;
+    border-width: 1px;
+}
+
+.corpsdepage-camion .container .infosprod {
+    margin-top: 5%;
+    max-width: 90%;
+    margin-left: auto;
+   margin-right: auto;
+   text-align: justify;
+   font-size: 1.7vh;
+   margin-bottom: 5%;
+   
+}
+
+.corpsdepage-camion .container .boutonchange :nth-child(2) { order: 3; }
+
+.corpsdepage-camion .container .infosprod .prix {
+    display: none;
+}
+
+/*-- Chargeuse sur roue --*/
+
+.corpsdepage-charseuse-sur-pneu .container {
+    max-width: 90%;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 0px;
+    justify-content: start;
+    align-items: baseline;
+}
+
+.corpsdepage-charseuse-sur-pneu .container :nth-child(1) { order: 3; }
+.corpsdepage-charseuse-sur-pneu .container :nth-child(4) { order: 3; }
+
+.corpsdepage-charseuse-sur-pneu .container .divimg {
+    margin-right: 0px;
+    max-width: 90%;
+    max-height: 60%;
+    background-position: 50% 50% 50% 50%;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    
+} 
+
+.corpsdepage-charseuse-sur-pneu .container .boutonchange {
+    max-height: 60%;
+    flex-direction: row;
+   margin-left: auto;
+   margin-right: auto;
+   
+}
+
+.corpsdepage-charseuse-sur-pneu .container .boutonchange .changechimg1{
+    margin-top: 0px;
+    background-position: 50% 50%
+}
+
+.corpsdepage-charseuse-sur-pneu .container .boutonchange .changechimg2{
+    margin-top: 0px;
+    background-position: 50% 50%;
+}
+
+.corpsdepage-charseuse-sur-pneu .container .boutonchange .changechimg3{
+    margin-top: 0px;
+    background-position: 50% 50%;
+}
+
+.corpsdepage-charseuse-sur-pneu .container .prixresponsive {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 180px;
+    margin-left: auto;
+    margin-right: auto;box-shadow: 0px -10px 10px -10px rgb(0, 0, 0) inset;
+}
+ 
+
+.corpsdepage-charseuse-sur-pneu .container .boutonchange .prixresponsive {
+    border-style: solid;
+    border-width: 1px;
+}
+
+.corpsdepage-charseuse-sur-pneu .container .infosprod {
+    margin-top: 5%;
+    max-width: 90%;
+    margin-left: auto;
+   margin-right: auto;
+   text-align: justify;
+   font-size: 1.7vh;
+   margin-bottom: 5%;
+   
+}
+
+.corpsdepage-charseuse-sur-pneu .container .boutonchange :nth-child(2) { order: 3; }
+
+.corpsdepage-charseuse-sur-pneu .container .infosprod .prix {
+    display: none;
+}
+
+/*-- Chariot élévateur --*/
+
+.corpsdepage-chariot-elevateur .container {
+    max-width: 90%;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 0px;
+    justify-content: start;
+    align-items: baseline;
+}
+
+.corpsdepage-chariot-elevateur .container :nth-child(1) { order: 3; }
+.corpsdepage-chariot-elevateur .container :nth-child(4) { order: 3; }
+
+.corpsdepage-chariot-elevateur .container .divimg {
+    margin-right: 0px;
+    max-width: 90%;
+    max-height: 60%;
+    background-position: 50% 50% 50% 50%;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    
+} 
+
+.corpsdepage-chariot-elevateur .container .boutonchange {
+    max-height: 60%;
+    flex-direction: row;
+   margin-left: auto;
+   margin-right: auto;
+   
+}
+
+.corpsdepage-chariot-elevateur .container .boutonchange .changeceimg1{
+    margin-top: 0px;
+    background-position: 50% 50%
+}
+
+.corpsdepage-chariot-elevateur .container .boutonchange .changeceimg2{
+    margin-top: 0px;
+    background-position: 50% 50%;
+}
+
+.corpsdepage-chariot-elevateur .container .boutonchange .changeceimg3{
+    margin-top: 0px;
+    background-position: 50% 50%;
+}
+
+.corpsdepage-chariot-elevateur .container .prixresponsive {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 180px;
+    margin-left: auto;
+    margin-right: auto;box-shadow: 0px -10px 10px -10px rgb(0, 0, 0) inset;
+}
+ 
+
+.corpsdepage-chariot-elevateur .container .boutonchange .prixresponsive {
+    border-style: solid;
+    border-width: 1px;
+}
+
+.corpsdepage-chariot-elevateur .container .infosprod {
+    margin-top: 5%;
+    max-width: 90%;
+    margin-left: auto;
+   margin-right: auto;
+   text-align: justify;
+   font-size: 1.7vh;
+   margin-bottom: 5%;
+   
+}
+
+.corpsdepage-chariot-elevateur .container .boutonchange :nth-child(2) { order: 3; }
+
+.corpsdepage-chariot-elevateur .container .infosprod .prix {
+    display: none;
+}
+
+/*-- Rouleau compresseur --*/
+
+.corpsdepage-rouleau-compresseur .container {
+    max-width: 90%;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 0px;
+    justify-content: start;
+    align-items: baseline;
+}
+
+.corpsdepage-rouleau-compresseur .container :nth-child(1) { order: 3; }
+.corpsdepage-rouleau-compresseur .container :nth-child(4) { order: 3; }
+
+.corpsdepage-rouleau-compresseur .container .divimg {
+    margin-right: 0px;
+    max-width: 90%;
+    max-height: 60%;
+    background-position: 50% 50% 50% 50%;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    
+} 
+
+.corpsdepage-rouleau-compresseur .container .boutonchange {
+    max-height: 60%;
+    flex-direction: row;
+   margin-left: auto;
+   margin-right: auto;
+   
+}
+
+.corpsdepage-rouleau-compresseur .container .boutonchange .changeroimg1{
+    margin-top: 0px;
+    background-position: 50% 50%
+}
+
+.corpsdepage-rouleau-compresseur .container .boutonchange .changeroimg2{
+    margin-top: 0px;
+    background-position: 50% 50%;
+}
+
+.corpsdepage-rouleau-compresseur .container .boutonchange .changeroimg3{
+    margin-top: 0px;
+    background-position: 50% 50%;
+}
+
+.corpsdepage-rouleau-compresseur .container .prixresponsive {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 180px;
+    margin-left: auto;
+    margin-right: auto;box-shadow: 0px -10px 10px -10px rgb(0, 0, 0) inset;
+}
+ 
+
+.corpsdepage-rouleau-compresseur .container .boutonchange .prixresponsive {
+    border-style: solid;
+    border-width: 1px;
+}
+
+.corpsdepage-rouleau-compresseur .container .infosprod {
+    margin-top: 5%;
+    max-width: 90%;
+    margin-left: auto;
+   margin-right: auto;
+   text-align: justify;
+   font-size: 1.7vh;
+   margin-bottom: 5%;
+   
+}
+
+.corpsdepage-rouleau-compresseur .container .boutonchange :nth-child(2) { order: 3; }
+
+.corpsdepage-rouleau-compresseur .container .infosprod .prix {
+    display: none;
+}
+
+}
+    
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--Bas de page indépendant (s'applique à toutes les pages)--*/
+
+
+/*----------------------------------------index.html-------------------------*/
+
+
+
+/*----------------------------------------menu1.html-------------------------*/
+
+
+
+/*----------------------------------------menu2.html-------------------------*/
+
+
+/*----------------------------------------menu3.html-------------------------*/
+
+
+
+/*----------------------------------------menu4.html-------------------------*/
+
+
+/*--Responsive--*/
