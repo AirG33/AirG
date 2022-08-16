@@ -2404,24 +2404,14 @@ footer .container {
     width: 100%;
     
     display: flex;
-    justify-content: center;
-    
-}
-
-footer .container .contact {
-    height: 200px;
-    margin-right: 10%;
+    align-items: center;
+    justify-content: space-evenly;
     
 }
 
 footer .container .contact h2 {
     margin-top: 14.05px;
     text-align: center; 
-}
-
-footer .container .Store {
-    height: 200px;
-    width: 351.4px;
 }
 
 footer .container .Store a {
@@ -2435,10 +2425,6 @@ footer .container .Store h2 {
 footer .container .Store .logobar li a .fa-instagram-square {
     color: bisque;
     margin-top: 5px;
-}
-
-footer .container .contactresponsive {
-    display: none;
 }
 
 @media screen and (max-width: 1700px){
@@ -4703,10 +4689,6 @@ font-size: 14px;
     font-size: small;
 }
 
-footer .container .contact {
-    display: none;
-}
-
 footer {
     width: auto;
     height: 395px;
@@ -4719,22 +4701,6 @@ footer .container {
     width: auto;
     height: 395px;
     padding: 0;
-}
-
-footer .container .contactresponsive {
-    display: block;
-    width: auto;
-    margin-top: 5%;
-    margin-right: 5%;
-    margin-left: 5%;
-    text-align: center;
-    border-bottom-width: 1px;
-    border-bottom-style: solid;
-    
-}
-
-footer .container .contactresponsive p {
-    margin-bottom: 14.05px;
 }
 
 footer .container .Store {
