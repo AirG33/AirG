@@ -1,7 +1,7 @@
 /*--Polices--*/
 
 @font-face{
-    font-family:"monument-extended-ultrabold";
+    font-family: "monument-extended-ultrabold";
     src:url("polices/monumentextended-ultrabold.otf") format("woff"),
     url("polices/monumentextended-ultrabold.otf") format("opentype"),
     url("polices/monumentextended-ultrabold.otf") format("truetype");
@@ -30,12 +30,10 @@ button {
 }
 
 body {
-    
-    font-family: "poppins";
+    font-family: "poppins", Verdana, Arial, sans-serif;
     overflow-x: hidden;
     max-width: 1920px;
     background-color: '';
-    
 }
 
 
@@ -2422,9 +2420,15 @@ footer .container .Store h2 {
     margin-top: 14.05px;
 }
 
+.logobar {
+    display: flex;
+    justify-items: center;
+    gap: 0.5rem;
+    margin-top: 5px;
+}
+
 footer .container .Store .logobar li a .fa-instagram-square {
     color: bisque;
-    margin-top: 5px;
 }
 
 @media screen and (max-width: 1700px){
