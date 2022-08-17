@@ -33,9 +33,12 @@ body {
     font-family: "poppins", Verdana, Arial, sans-serif;
     overflow-x: hidden;
     max-width: 1920px;
-    background-color: '';
+    min-height: 100vh;
 }
-
+a {
+    text-decoration: none;
+    color: #3388ff;
+}
 
 /*--Menu indépendant (s'applique à toutes les pages)--*/
 
@@ -455,7 +458,8 @@ body {
     flex-direction: column;
     height: 700px;
     align-items: center;
-    background-color: #eedff9;
+    background:center url("./img/banniere-site.jpg");
+    background-size: cover;
 }
 
 .corpsdepage .container .impr3d h1 {
@@ -2422,7 +2426,7 @@ footer .container .Store h2 {
 
 .logobar {
     display: flex;
-    justify-items: center;
+    justify-content: center;
     gap: 0.5rem;
     margin-top: 5px;
 }
@@ -3159,6 +3163,17 @@ font-size: 14px;
 }
 
 @media screen and (max-width: 1100px) {
+
+    footer .column:nth-child(2) h2 {
+        display: flex;
+        place-content: center;
+    }
+
+    footer .column .legal {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
 
     .corpsdepage-catalogue-1800 {
         display: none;
